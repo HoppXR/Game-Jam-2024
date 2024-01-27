@@ -1,0 +1,78 @@
+# Aspose.3D Wavefront OBJ Exporter
+# Copyright 2004-2023 Aspose Pty Ltd.
+# File created: 01/27/2024 04:48:09
+
+newmtl 6.floor
+	illum 2
+	Kd 0 0 0
+	Ke 0 0 0
+	Pr 0
+	Pm 0
+	d 1
+	Tr 0
+newmtl 1.Head
+	illum 2
+	Kd 0.0528607 0.155927 0.00212469
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	d 1
+	Tr 0
+	map_Pr texture_1.png
+	map_Pm texture_1.png
+	norm texture_2.png
+newmtl 5.Puplz
+	illum 2
+	Kd 0 0 0
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	d 1
+	Tr 0
+	map_Pr texture_3.png
+	map_Pm texture_3.png
+	norm texture_4.png
+newmtl 4.Eysballs
+	illum 2
+	Kd 1 1 1
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	d 1
+	Tr 0
+	map_Pr texture_5.png
+	map_Pm texture_5.png
+	norm texture_6.png
+newmtl 2.eYSLIDS
+	illum 2
+	Kd 0.0528607 0.155927 0.00212469
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	d 1
+	Tr 0
+	map_Pr texture_7.png
+	map_Pm texture_7.png
+	norm texture_8.png
+newmtl 2.eYSLIDS
+	illum 2
+	Kd 0.0528607 0.155927 0.00212469
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	d 1
+	Tr 0
+	map_Pr texture_7.png
+	map_Pm texture_7.png
+	norm texture_8.png
+newmtl 3.Lips
+	illum 2
+	Kd 0.107023105 0.001517635 0.0051815165
+	Ke 0 0 0
+	Pr 1
+	Pm 0
+	d 1
+	Tr 0
+	map_Pr texture_9.png
+	map_Pm texture_9.png
+	norm texture_10.png
