@@ -15,12 +15,16 @@ public class PlayerHealth : MonoBehaviour
 
     public event Action OnPlayerDeath;
 
-    private LimbScript limbScript;
+    private LimbScript limbScript; // Reference to the LimbScript component
+
     void Start()
     {
         hitSound = GetComponent<AudioSource>();
 
         currentHealth = maxHealth;
+
+        // Get reference to the LimbScript component
+        limbScript = GetComponent<LimbScript>();
 
         if (healthBar != null)
         {
@@ -56,9 +60,7 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("You Died!");
         hitSound.Play();
 
-        // Trigger the event when the player dies
-        OnPlayerDeath?.Invoke();
-
+        // Call the FlingBodyAndPlaySound method directly from the LimbScript component
         limbScript.FlingBodyAndPlaySound();
     }
 }
