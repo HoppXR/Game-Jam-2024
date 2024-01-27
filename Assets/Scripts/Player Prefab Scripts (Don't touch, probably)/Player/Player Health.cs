@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,8 +11,11 @@ public class PlayerHealth : MonoBehaviour
 
     public AudioSource hitSound;
 
-    public float knockbackForce = 10f; 
+    public float knockbackForce = 10f;
 
+    public event Action OnPlayerDeath;
+
+    private LimbScript limbScript;
     void Start()
     {
         hitSound = GetComponent<AudioSource>();
@@ -52,6 +55,10 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("You Died!");
         hitSound.Play();
-        Destroy(gameObject);
+
+        // Trigger the event when the player dies
+        OnPlayerDeath?.Invoke();
+
+        limbScript.FlingBodyAndPlaySound();
     }
 }
