@@ -14,9 +14,6 @@ public class Destruction : MonoBehaviour
             {
                 AudioSource.PlayClipAtPoint(destructionSound, transform.position);
             }
-
-            // Destroy the object this script is attached to
-            Destroy(gameObject);
         }
     }
 }
