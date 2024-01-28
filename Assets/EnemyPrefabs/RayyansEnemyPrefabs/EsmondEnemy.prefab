@@ -17,8 +17,8 @@ GameObject:
   - component: {fileID: 369560206829121327}
   - component: {fileID: 8027460011213112426}
   - component: {fileID: 5992311808549103754}
-  - component: {fileID: 1036507557587635731}
   - component: {fileID: 6703061225464286073}
+  - component: {fileID: 905480068206816290}
   m_Layer: 0
   m_Name: EsmondEnemy
   m_TagString: Enemy
@@ -276,19 +276,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
---- !u!114 &1036507557587635731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8739540821871842764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7d5da61bd813b842831ece4888f07bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destructionSound: {fileID: 8300000, guid: a75c90b2143199244a47919c85864e86, type: 3}
 --- !u!114 &6703061225464286073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,3 +288,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f857ddfb9c31184fa748714a5fe1693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &905480068206816290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8739540821871842764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionSound: {fileID: 8300000, guid: 9c3c6ad66f8e68f4ba5995bc90a77ad1, type: 3}

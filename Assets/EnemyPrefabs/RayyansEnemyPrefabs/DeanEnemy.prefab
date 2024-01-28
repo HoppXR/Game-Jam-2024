@@ -17,8 +17,8 @@ GameObject:
   - component: {fileID: 1811571015112952551}
   - component: {fileID: 1764240510302079588}
   - component: {fileID: 1494100044062509264}
-  - component: {fileID: 4016060148766518804}
   - component: {fileID: 1692353937385476999}
+  - component: {fileID: 1369366876999085173}
   m_Layer: 0
   m_Name: DeanEnemy
   m_TagString: Enemy
@@ -276,19 +276,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
---- !u!114 &4016060148766518804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5031312443277147325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7d5da61bd813b842831ece4888f07bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destructionSound: {fileID: 8300000, guid: 47e81078a7f7f8e4fa2addcaf569de2b, type: 3}
 --- !u!114 &1692353937385476999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,3 +288,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f857ddfb9c31184fa748714a5fe1693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1369366876999085173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5031312443277147325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionSound: {fileID: 8300000, guid: 47e81078a7f7f8e4fa2addcaf569de2b, type: 3}
