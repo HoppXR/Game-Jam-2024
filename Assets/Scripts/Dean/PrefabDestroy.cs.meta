@@ -1,5 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/Scripts/Dean/PrefabDestroy.cs.meta
 guid: f7d5da61bd813b842831ece4888f07bc
+=======
+guid: 84d78e4934732a54380563ad1ec97ae5
+timeCreated: 1548305637
+licenseType: Store
+>>>>>>> Stashed changes:Assets/Richard Stufss/Apartment_Door/Scripts/PlayerMovement.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
