@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.435
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.055382952, g: 0.058354102, b: 0.052669156, a: 0.435}
+  m_IndirectSpecularColor: {r: 0.05538311, g: 0.05835419, b: 0.052669235, a: 0.435}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18432,6 +18432,59 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &884467919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 884467921}
+  - component: {fileID: 884467920}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &884467920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884467919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a13725f449b154786be897b70ca9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 4803834674804473917, guid: a42d88c31fc6b3a468ee3193850047b6, type: 3}
+  - {fileID: 3118863688138410454, guid: 9aeca4764732a0d438b61f74854551e0, type: 3}
+  - {fileID: 808792203819965469, guid: b1182860cfd63e44ebc05888afbfb40a, type: 3}
+  - {fileID: 4212392610041103903, guid: be50c1590fb29b546b4ade92e663b801, type: 3}
+  - {fileID: 9060520494160584192, guid: a7733998653429c42a8308a0f8a3663d, type: 3}
+  - {fileID: 2286067797614057436, guid: 9e8dbc9f01451e94e9406d59f69dd88f, type: 3}
+  - {fileID: 2415646899741284864, guid: e1f63d2ad711c4d41bdca2f4bd0aa315, type: 3}
+  spawnDelay: 7
+--- !u!4 &884467921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884467919}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 323.78348, y: 0.4564798, z: 106.1425}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &886590463
 GameObject:
   m_ObjectHideFlags: 0
@@ -34886,7 +34939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900542390}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41878,6 +41931,7 @@ Light:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 884467921}
   - {fileID: 67930348}
   - {fileID: 1900542390}
   - {fileID: 1823081602}
