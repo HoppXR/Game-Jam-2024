@@ -2965,7 +2965,11 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   hitSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  respawnPoint: {fileID: 0}
   knockbackForce: 10
+  respawnDelay: 2
+  disableMovementTime: 1
 --- !u!114 &153988638
 MonoBehaviour:
   m_ObjectHideFlags: 0
