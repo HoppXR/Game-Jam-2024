@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 4399750673718112598}
   - component: {fileID: 5321491829147689993}
   - component: {fileID: 205188034999775778}
+  - component: {fileID: -982563752933384857}
+  - component: {fileID: -4506299038872371727}
   m_Layer: 0
   m_Name: JadenEnemy
   m_TagString: Untagged
@@ -33,7 +35,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7547656, z: -0, w: 0.65599453}
   m_LocalPosition: {x: 92.288826, y: 5.6495323, z: 84.04721}
-  m_LocalScale: {x: 0.6915, y: 1.3209, z: 1.53}
+  m_LocalScale: {x: 3.7738612, y: 3.939452, z: 7.0147433}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -187,9 +189,9 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 198
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 35
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -255,3 +257,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-982563752933384857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212392610041103903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c24dfc82c9dae04b822b5c31af53b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 2
+--- !u!114 &-4506299038872371727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212392610041103903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionSound: {fileID: 8300000, guid: d1c64ea77ee603a49abf18530858949c, type: 3}
