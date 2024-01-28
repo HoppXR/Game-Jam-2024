@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class RayyanEnemyDie : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter(Collision collision)
     {
-        
+        // Check if the collision involves an object with the "Pepe" tag
+        if (collision.gameObject.CompareTag("Pepe"))
+        {
+            TeleportEnemy();
+        }
     }
-
-    // Update is called once per frame
-    void Update()
+    private void TeleportEnemy()
     {
-        
+        // Teleport the enemy GameObject to a random location
+        Vector3 randomTeleportPosition = new Vector3(
+            Random.Range(0,0),
+            0f,
+            Random.Range(0,0)
+        );
+
+        transform.position = randomTeleportPosition;
     }
 }

@@ -20,7 +20,7 @@ public class JadenEnemySpawner : MonoBehaviour
 
             // Spawn the ith prefab at a random position
             GameObject prefabToSpawn = prefabs[i];
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(4.74f, 324.34f), 0.7f, Random.Range(104.3f, 335.2f));
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(0f, 0f), 0f, Random.Range(0f, 0f));
 
             Instantiate(prefabToSpawn, randomSpawnPosition, Quaternion.identity);
         }
