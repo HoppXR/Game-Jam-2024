@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 8264729255587468840}
   - component: {fileID: 8791425843345247450}
   - component: {fileID: 6819195220513032326}
+  - component: {fileID: -7474825294979653104}
+  - component: {fileID: 3921752085740611852}
   m_Layer: 0
   m_Name: RichardEnemy
   m_TagString: Untagged
@@ -181,9 +183,9 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 198
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 35
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -258,3 +260,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-7474825294979653104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286067797614057436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c24dfc82c9dae04b822b5c31af53b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 2
+--- !u!114 &3921752085740611852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286067797614057436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionSound: {fileID: 8300000, guid: 9d40c6f4eb166474bbfb18f63d500d19, type: 3}

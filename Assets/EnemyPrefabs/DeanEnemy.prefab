@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 3025057902225537240}
   - component: {fileID: 5487207126176336316}
   - component: {fileID: 8962471341485002143}
+  - component: {fileID: 3004963490480393679}
+  - component: {fileID: 5577337424286157624}
   m_Layer: 0
   m_Name: DeanEnemy
   m_TagString: Untagged
@@ -183,9 +185,9 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 198
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 35
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -260,3 +262,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3004963490480393679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803834674804473917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c24dfc82c9dae04b822b5c31af53b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageAmount: 2
+--- !u!114 &5577337424286157624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4803834674804473917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionSound: {fileID: 8300000, guid: 47e81078a7f7f8e4fa2addcaf569de2b, type: 3}

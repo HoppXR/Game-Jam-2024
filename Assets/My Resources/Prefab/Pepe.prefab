@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3091730122918635976}
   - component: {fileID: 4121293281669891074}
   - component: {fileID: 2297042329692729097}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyebrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 5041026665562410839}
   - component: {fileID: 9080176369678992324}
   - component: {fileID: 5448987586506193732}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyebrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,6 +278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lower EYelids
       objectReference: {fileID: 0}
+    - target: {fileID: -7068780739999964013, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -6958369314715189626, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8409
@@ -330,6 +334,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -177.991
       objectReference: {fileID: 0}
+    - target: {fileID: -3167922620122474692, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: -2911780837335267724, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -338,17 +346,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eyelids
       objectReference: {fileID: 0}
+    - target: {fileID: -844944085459934933, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
       propertyPath: m_Name
+      value: Pepe
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_TagString
       value: Pepe
       objectReference: {fileID: 0}
     - target: {fileID: 1159096298191817197, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
       propertyPath: m_Name
       value: Head
       objectReference: {fileID: 0}
+    - target: {fileID: 1159096298191817197, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5151843631042888703, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
       propertyPath: m_Name
       value: Lips
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151843631042888703, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6229787617741526518, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6529505118546326080, guid: 0c8b8b0256bf60a419c74b73d2c0dc0c, type: 3}
       propertyPath: m_Materials.Array.data[0]
