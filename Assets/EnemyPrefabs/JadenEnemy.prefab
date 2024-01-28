@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5321491829147689993}
   - component: {fileID: 205188034999775778}
   - component: {fileID: -982563752933384857}
-  - component: {fileID: -4506299038872371727}
+  - component: {fileID: 499096784008327738}
   m_Layer: 0
   m_Name: JadenEnemy
   m_TagString: Enemy
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
---- !u!114 &-4506299038872371727
+--- !u!114 &499096784008327738
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4212392610041103903}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Script: {fileID: 11500000, guid: f7d5da61bd813b842831ece4888f07bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   destructionSound: {fileID: 8300000, guid: 09a3ca60c8b55d24ea5c87e898876e0e, type: 3}

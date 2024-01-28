@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 3914434771543723188}
   - component: {fileID: 9056014207070817795}
   - component: {fileID: 9012101613588489705}
+  - component: {fileID: 4673849959425663258}
   m_Layer: 0
   m_Name: KiaraEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -254,3 +255,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
+--- !u!114 &4673849959425663258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808792203819965469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d5da61bd813b842831ece4888f07bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destructionSound: {fileID: 8300000, guid: 4e6e7f918675ca946aa2cfbe49386db3, type: 3}

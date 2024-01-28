@@ -17,10 +17,10 @@ GameObject:
   - component: {fileID: 8791425843345247450}
   - component: {fileID: 6819195220513032326}
   - component: {fileID: -7474825294979653104}
-  - component: {fileID: 3921752085740611852}
+  - component: {fileID: -3843620276897192423}
   m_Layer: 0
   m_Name: RichardEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +35,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.64223737, z: -0, w: 0.76650584}
   m_LocalPosition: {x: 95.06999, y: 6.4525127, z: 73.696495}
-  m_LocalScale: {x: 0.2813, y: 1.929678, z: 0.3789968}
+  m_LocalScale: {x: 0.9365321, y: 2.6023638, z: 0.3789968}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
---- !u!114 &3921752085740611852
+--- !u!114 &-3843620276897192423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2286067797614057436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Script: {fileID: 11500000, guid: f7d5da61bd813b842831ece4888f07bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   destructionSound: {fileID: 8300000, guid: 9d40c6f4eb166474bbfb18f63d500d19, type: 3}
