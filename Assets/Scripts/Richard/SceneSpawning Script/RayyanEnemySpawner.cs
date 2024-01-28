@@ -20,7 +20,7 @@ public class RayyanEnemySpawner : MonoBehaviour
 
             // Spawn the ith prefab at a random position
             GameObject prefabToSpawn = prefabs[i];
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(4.74f, 324.34f), 0.7f, Random.Range(104.3f, 335.2f));
+            Vector3 randomSpawnPosition = new Vector3(34.68f, 5.96f, 153.41f);
 
             Instantiate(prefabToSpawn, randomSpawnPosition, Quaternion.identity);
         }

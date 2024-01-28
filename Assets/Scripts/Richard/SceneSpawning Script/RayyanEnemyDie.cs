@@ -16,9 +16,9 @@ public class RayyanEnemyDie : MonoBehaviour
     {
         // Teleport the enemy GameObject to a random location
         Vector3 randomTeleportPosition = new Vector3(
-            Random.Range(0,0),
-            0f,
-            Random.Range(0,0)
+            Random.Range(72.77f,72.77f),
+            3.11f,
+            Random.Range(180.92f,180.92f)
         );
 
         transform.position = randomTeleportPosition;

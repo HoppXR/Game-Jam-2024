@@ -15,11 +15,7 @@ public class JadenEnemyDie : MonoBehaviour
     private void TeleportEnemy()
     {
         // Teleport the enemy GameObject to a random location
-        Vector3 randomTeleportPosition = new Vector3(
-            Random.Range(0,0),
-            0f,
-            Random.Range(0,0)
-        );
+        Vector3 randomTeleportPosition = new Vector3(116.06f, 6.6f, 128.72f);
 
         transform.position = randomTeleportPosition;
     }
