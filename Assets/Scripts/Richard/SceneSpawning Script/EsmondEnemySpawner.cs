@@ -20,7 +20,7 @@ public class EsmondEnemySpawner : MonoBehaviour
 
             // Spawn the ith prefab at a random position
             GameObject prefabToSpawn = prefabs[i];
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(84f, 126f), -3.1f, Random.Range(15f, 198f));
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(15.6f, 84f), -3.1f, Random.Range(129.1f, 197.8f));
 
             Instantiate(prefabToSpawn, randomSpawnPosition, Quaternion.identity);
         }

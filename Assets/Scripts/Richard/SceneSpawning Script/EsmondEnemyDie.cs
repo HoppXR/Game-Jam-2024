@@ -16,9 +16,9 @@ public class EsmondEnemyDie : MonoBehaviour
     {
         // Teleport the enemy GameObject to a random location
         Vector3 randomTeleportPosition = new Vector3(
-            Random.Range(84f, 126f),
+            Random.Range(15f, 84f),
             -3.1f,
-            Random.Range(15f, 198f)
+            Random.Range(126f, 129.1f)
         );
 
         transform.position = randomTeleportPosition;

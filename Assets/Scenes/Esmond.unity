@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 449cf87fa60e976408aff45ea8e2a87e, type: 2}
 --- !u!1 &1015145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 442644874181362592, guid: cc2f07f197f4b6f4884b636f0854f591, type: 3}
@@ -155,11 +155,11 @@ GameObject:
   - component: {fileID: 22593417}
   - component: {fileID: 22593416}
   m_Layer: 0
-  m_Name: wall (100)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &22593416
 BoxCollider:
@@ -241,11 +241,11 @@ Transform:
   m_GameObject: {fileID: 22593415}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 46.62, y: 5.102424, z: 134.06409}
+  m_LocalPosition: {x: -40.280003, y: -14.897575, z: -28.435913}
   m_LocalScale: {x: 4.5480003, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &29255751
 GameObject:
@@ -260,11 +260,11 @@ GameObject:
   - component: {fileID: 29255753}
   - component: {fileID: 29255752}
   m_Layer: 0
-  m_Name: wall (89)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &29255752
 BoxCollider:
@@ -346,11 +346,11 @@ Transform:
   m_GameObject: {fileID: 29255751}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9238751, y: -0.0011838641, z: 0.38268173, w: -0.0028579766}
-  m_LocalPosition: {x: 53.93, y: 4.970935, z: 155.29951}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -32.97, y: -15.029066, z: -7.200485}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: -0.251, y: 134.999, z: 180.251}
 --- !u!1 &38775148
 GameObject:
@@ -365,11 +365,11 @@ GameObject:
   - component: {fileID: 38775150}
   - component: {fileID: 38775149}
   m_Layer: 0
-  m_Name: wall (98)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &38775149
 BoxCollider:
@@ -451,11 +451,11 @@ Transform:
   m_GameObject: {fileID: 38775148}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 31.92, y: 5.007533, z: 149.39961}
+  m_LocalPosition: {x: -54.98001, y: -14.992467, z: -13.100388}
   m_LocalScale: {x: 3.3880801, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &53602316
 GameObject:
@@ -470,11 +470,11 @@ GameObject:
   - component: {fileID: 53602318}
   - component: {fileID: 53602317}
   m_Layer: 0
-  m_Name: wall (34)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &53602317
 BoxCollider:
@@ -555,12 +555,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53602316}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 49.28, y: 5, z: 188.8505}
-  m_LocalScale: {x: 5.4789834, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -37.620003, y: -15, z: 26.350494}
+  m_LocalScale: {x: 5.4789824, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &66103599
 GameObject:
@@ -575,11 +575,11 @@ GameObject:
   - component: {fileID: 66103601}
   - component: {fileID: 66103600}
   m_Layer: 0
-  m_Name: wall (58)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &66103600
 BoxCollider:
@@ -661,11 +661,11 @@ Transform:
   m_GameObject: {fileID: 66103599}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.45, y: 5, z: 176.36}
-  m_LocalScale: {x: 9.447761, y: 6, z: 0.3}
+  m_LocalPosition: {x: -17.449997, y: -15, z: 13.860001}
+  m_LocalScale: {x: 9.447761, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &101111529
 GameObject:
@@ -680,11 +680,11 @@ GameObject:
   - component: {fileID: 101111531}
   - component: {fileID: 101111530}
   m_Layer: 0
-  m_Name: wall (146)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &101111530
 BoxCollider:
@@ -766,11 +766,11 @@ Transform:
   m_GameObject: {fileID: 101111529}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 46.23, y: 4.960347, z: 157.72}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -40.670002, y: -15.039653, z: -4.779999}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &106742932
 GameObject:
@@ -785,11 +785,11 @@ GameObject:
   - component: {fileID: 106742934}
   - component: {fileID: 106742933}
   m_Layer: 0
-  m_Name: wall (110)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &106742933
 BoxCollider:
@@ -871,11 +871,11 @@ Transform:
   m_GameObject: {fileID: 106742932}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 79.89, y: 5.0540347, z: 141.8797}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalPosition: {x: -7.0099945, y: -14.945965, z: -20.6203}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &153870011
 GameObject:
@@ -890,11 +890,11 @@ GameObject:
   - component: {fileID: 153870013}
   - component: {fileID: 153870012}
   m_Layer: 0
-  m_Name: wall (140)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &153870012
 BoxCollider:
@@ -976,11 +976,11 @@ Transform:
   m_GameObject: {fileID: 153870011}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 58.29, y: 4.957704, z: 157.43947}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -28.61, y: -15.042295, z: -5.0605316}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &186408731
 GameObject:
@@ -995,11 +995,11 @@ GameObject:
   - component: {fileID: 186408733}
   - component: {fileID: 186408732}
   m_Layer: 0
-  m_Name: wall (85)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &186408732
 BoxCollider:
@@ -1081,11 +1081,11 @@ Transform:
   m_GameObject: {fileID: 186408731}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 30.61, y: 4.958041, z: 157.38269}
-  m_LocalScale: {x: 7.0292673, y: 6, z: 0.3}
+  m_LocalPosition: {x: -56.29001, y: -15.04196, z: -5.1173096}
+  m_LocalScale: {x: 7.029268, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &190199421
 GameObject:
@@ -1100,11 +1100,11 @@ GameObject:
   - component: {fileID: 190199423}
   - component: {fileID: 190199422}
   m_Layer: 0
-  m_Name: wall (60)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &190199422
 BoxCollider:
@@ -1185,12 +1185,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 190199421}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 74.15, y: 5, z: 184.87}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.75, y: -15, z: 22.369995}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &227112286
 GameObject:
@@ -1205,11 +1205,11 @@ GameObject:
   - component: {fileID: 227112288}
   - component: {fileID: 227112287}
   m_Layer: 0
-  m_Name: wall (142)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &227112287
 BoxCollider:
@@ -1291,11 +1291,11 @@ Transform:
   m_GameObject: {fileID: 227112286}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 58.38, y: 5.0646524, z: 140.16986}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -28.52, y: -14.9353485, z: -22.33014}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &230900063
 GameObject:
@@ -1310,11 +1310,11 @@ GameObject:
   - component: {fileID: 230900065}
   - component: {fileID: 230900064}
   m_Layer: 0
-  m_Name: wall (117)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &230900064
 BoxCollider:
@@ -1396,11 +1396,11 @@ Transform:
   m_GameObject: {fileID: 230900063}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 23.66, y: 5.0078645, z: 149.33961}
+  m_LocalPosition: {x: -63.240013, y: -14.992136, z: -13.1604}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &243820792
 GameObject:
@@ -1415,11 +1415,11 @@ GameObject:
   - component: {fileID: 243820794}
   - component: {fileID: 243820793}
   m_Layer: 0
-  m_Name: wall (46)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &243820793
 BoxCollider:
@@ -1500,12 +1500,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243820792}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 62.64, y: 5, z: 194.7}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.9238796}
+  m_LocalPosition: {x: -24.260002, y: -15, z: 32.200012}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.29999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!1 &250534796
 GameObject:
@@ -1520,11 +1520,11 @@ GameObject:
   - component: {fileID: 250534798}
   - component: {fileID: 250534797}
   m_Layer: 0
-  m_Name: wall (65)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &250534797
 BoxCollider:
@@ -1606,11 +1606,11 @@ Transform:
   m_GameObject: {fileID: 250534796}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.38, y: 5, z: 187.66}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -28.52, y: -15, z: 25.160004}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &259511865
 GameObject:
@@ -1625,11 +1625,11 @@ GameObject:
   - component: {fileID: 259511867}
   - component: {fileID: 259511866}
   m_Layer: 0
-  m_Name: wall (136)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &259511866
 BoxCollider:
@@ -1711,11 +1711,11 @@ Transform:
   m_GameObject: {fileID: 259511865}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 34.805, y: 4.978538, z: 154.06967}
-  m_LocalScale: {x: 8.190001, y: 6, z: 0.3}
+  m_LocalPosition: {x: -52.09501, y: -15.0214615, z: -8.430328}
+  m_LocalScale: {x: 8.190001, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &264128573
 GameObject:
@@ -1730,11 +1730,11 @@ GameObject:
   - component: {fileID: 264128575}
   - component: {fileID: 264128574}
   m_Layer: 0
-  m_Name: wall (139)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &264128574
 BoxCollider:
@@ -1816,11 +1816,11 @@ Transform:
   m_GameObject: {fileID: 264128573}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 73.2295, y: 4.973634, z: 154.85947}
-  m_LocalScale: {x: 8.679125, y: 6, z: 0.3}
+  m_LocalPosition: {x: -13.670502, y: -15.026367, z: -7.6405334}
+  m_LocalScale: {x: 8.679125, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &279557471
 GameObject:
@@ -1835,11 +1835,11 @@ GameObject:
   - component: {fileID: 279557473}
   - component: {fileID: 279557472}
   m_Layer: 0
-  m_Name: wall (88)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &279557472
 BoxCollider:
@@ -1921,11 +1921,11 @@ Transform:
   m_GameObject: {fileID: 279557471}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 35.56, y: 4.9982758, z: 150.88963}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -51.340008, y: -15.001725, z: -11.610367}
+  m_LocalScale: {x: 6.1433897, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &281785571
 GameObject:
@@ -1940,11 +1940,11 @@ GameObject:
   - component: {fileID: 281785573}
   - component: {fileID: 281785572}
   m_Layer: 0
-  m_Name: wall (52)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &281785572
 BoxCollider:
@@ -2025,12 +2025,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281785571}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 60.51, y: 5, z: 181.9236}
-  m_LocalScale: {x: 11.778798, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -26.390003, y: -15, z: 19.4236}
+  m_LocalScale: {x: 11.778796, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &323296271
 GameObject:
@@ -2045,11 +2045,11 @@ GameObject:
   - component: {fileID: 323296274}
   - component: {fileID: 323296273}
   m_Layer: 0
-  m_Name: wall (4)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &323296272
 Transform:
@@ -2060,11 +2060,11 @@ Transform:
   m_GameObject: {fileID: 323296271}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.08100001, y: 8.259003, z: 0.019937882}
-  m_LocalScale: {x: 0.82057995, y: 17.387373, z: 0.0132919215}
+  m_LocalPosition: {x: -42.975002, y: 0, z: 1.6000061}
+  m_LocalScale: {x: 61.543495, y: 40, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 599802773}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &323296273
 BoxCollider:
@@ -2150,11 +2150,11 @@ GameObject:
   - component: {fileID: 339267678}
   - component: {fileID: 339267677}
   m_Layer: 0
-  m_Name: wall (87)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &339267677
 BoxCollider:
@@ -2236,11 +2236,11 @@ Transform:
   m_GameObject: {fileID: 339267676}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 27.29, y: 4.939492, z: 160.38557}
-  m_LocalScale: {x: 6.1360297, y: 6, z: 0.3}
+  m_LocalPosition: {x: -59.61001, y: -15.060509, z: -2.1144257}
+  m_LocalScale: {x: 6.136031, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &366164120
 GameObject:
@@ -2255,11 +2255,11 @@ GameObject:
   - component: {fileID: 366164122}
   - component: {fileID: 366164121}
   m_Layer: 0
-  m_Name: wall (135)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &366164121
 BoxCollider:
@@ -2341,12 +2341,190 @@ Transform:
   m_GameObject: {fileID: 366164120}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 30.7546, y: 5.0370803, z: 144.61972}
-  m_LocalScale: {x: 5.1709995, y: 6, z: 0.3}
+  m_LocalPosition: {x: -56.14541, y: -14.96292, z: -17.88028}
+  m_LocalScale: {x: 5.170999, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
+--- !u!1 &378565301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378565302}
+  m_Layer: 0
+  m_Name: MazeWalls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378565302
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378565301}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.899994, y: 20, z: 162.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1259545030}
+  - {fileID: 456629461}
+  - {fileID: 323296272}
+  - {fileID: 1742278131}
+  - {fileID: 1323120311}
+  - {fileID: 894138848}
+  - {fileID: 456815657}
+  - {fileID: 1387853089}
+  - {fileID: 684650719}
+  - {fileID: 624146572}
+  - {fileID: 1941253694}
+  - {fileID: 954008937}
+  - {fileID: 496439236}
+  - {fileID: 723290174}
+  - {fileID: 791131556}
+  - {fileID: 2077613107}
+  - {fileID: 1435699122}
+  - {fileID: 842215541}
+  - {fileID: 398666841}
+  - {fileID: 552014328}
+  - {fileID: 558803608}
+  - {fileID: 243820796}
+  - {fileID: 1672519427}
+  - {fileID: 2145231726}
+  - {fileID: 622712783}
+  - {fileID: 2047514984}
+  - {fileID: 933978082}
+  - {fileID: 2100050881}
+  - {fileID: 1645805285}
+  - {fileID: 2017781135}
+  - {fileID: 1010206298}
+  - {fileID: 1092824311}
+  - {fileID: 1739854828}
+  - {fileID: 1737661298}
+  - {fileID: 2087663548}
+  - {fileID: 281785575}
+  - {fileID: 470031405}
+  - {fileID: 536524532}
+  - {fileID: 757415510}
+  - {fileID: 402265874}
+  - {fileID: 415030223}
+  - {fileID: 1789618044}
+  - {fileID: 190199425}
+  - {fileID: 1392227912}
+  - {fileID: 53602320}
+  - {fileID: 1422185510}
+  - {fileID: 733562039}
+  - {fileID: 1015986355}
+  - {fileID: 1230795099}
+  - {fileID: 1166575949}
+  - {fileID: 1800157221}
+  - {fileID: 1961237005}
+  - {fileID: 870422753}
+  - {fileID: 828570227}
+  - {fileID: 650403693}
+  - {fileID: 548667978}
+  - {fileID: 457707600}
+  - {fileID: 1374073908}
+  - {fileID: 1816037120}
+  - {fileID: 1264838841}
+  - {fileID: 2001249598}
+  - {fileID: 1763646216}
+  - {fileID: 1279525279}
+  - {fileID: 2021928460}
+  - {fileID: 66103603}
+  - {fileID: 519297405}
+  - {fileID: 656037800}
+  - {fileID: 780412759}
+  - {fileID: 402460645}
+  - {fileID: 1874299684}
+  - {fileID: 856228053}
+  - {fileID: 989191568}
+  - {fileID: 250534800}
+  - {fileID: 772956836}
+  - {fileID: 1405564693}
+  - {fileID: 811440131}
+  - {fileID: 1267228608}
+  - {fileID: 1420558457}
+  - {fileID: 707246214}
+  - {fileID: 527707955}
+  - {fileID: 1528043345}
+  - {fileID: 1279946278}
+  - {fileID: 808413071}
+  - {fileID: 22593419}
+  - {fileID: 230900067}
+  - {fileID: 975754798}
+  - {fileID: 259511869}
+  - {fileID: 366164124}
+  - {fileID: 1312767088}
+  - {fileID: 657611546}
+  - {fileID: 2053904973}
+  - {fileID: 1680335389}
+  - {fileID: 186408735}
+  - {fileID: 279557475}
+  - {fileID: 1310333417}
+  - {fileID: 1322524685}
+  - {fileID: 1818164763}
+  - {fileID: 955039797}
+  - {fileID: 1161346764}
+  - {fileID: 989010818}
+  - {fileID: 1067286376}
+  - {fileID: 1930544917}
+  - {fileID: 1141335682}
+  - {fileID: 1701576933}
+  - {fileID: 1462992485}
+  - {fileID: 1347301526}
+  - {fileID: 627241459}
+  - {fileID: 470258301}
+  - {fileID: 1723231952}
+  - {fileID: 339267680}
+  - {fileID: 779838561}
+  - {fileID: 1131420901}
+  - {fileID: 29255755}
+  - {fileID: 1899587610}
+  - {fileID: 999235709}
+  - {fileID: 679154083}
+  - {fileID: 538304271}
+  - {fileID: 101111533}
+  - {fileID: 1185676143}
+  - {fileID: 1663436117}
+  - {fileID: 1140462510}
+  - {fileID: 664352001}
+  - {fileID: 1182558872}
+  - {fileID: 2062242538}
+  - {fileID: 2099455108}
+  - {fileID: 1511486072}
+  - {fileID: 1820988455}
+  - {fileID: 1140365048}
+  - {fileID: 593534572}
+  - {fileID: 1839947802}
+  - {fileID: 983740419}
+  - {fileID: 106742936}
+  - {fileID: 1861492289}
+  - {fileID: 153870015}
+  - {fileID: 1330536845}
+  - {fileID: 813373284}
+  - {fileID: 1928509774}
+  - {fileID: 227112290}
+  - {fileID: 488393424}
+  - {fileID: 2060915619}
+  - {fileID: 38775152}
+  - {fileID: 2135812380}
+  - {fileID: 406839927}
+  - {fileID: 1110924004}
+  - {fileID: 264128577}
+  - {fileID: 926553589}
+  - {fileID: 1619479211}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &398666837
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,11 +2538,11 @@ GameObject:
   - component: {fileID: 398666839}
   - component: {fileID: 398666838}
   m_Layer: 0
-  m_Name: wall (22)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &398666838
 BoxCollider:
@@ -2445,12 +2623,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398666837}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 35.56, y: 5, z: 176.94}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -51.34001, y: -15, z: 14.440002}
+  m_LocalScale: {x: 6.143391, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &402265870
 GameObject:
@@ -2465,11 +2643,11 @@ GameObject:
   - component: {fileID: 402265872}
   - component: {fileID: 402265871}
   m_Layer: 0
-  m_Name: wall (53)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &402265871
 BoxCollider:
@@ -2550,12 +2728,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402265870}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 82.77, y: 5, z: 188.56}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -4.1299973, y: -15, z: 26.059998}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &402460641
 GameObject:
@@ -2570,11 +2748,11 @@ GameObject:
   - component: {fileID: 402460643}
   - component: {fileID: 402460642}
   m_Layer: 0
-  m_Name: wall (71)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &402460642
 BoxCollider:
@@ -2656,11 +2834,11 @@ Transform:
   m_GameObject: {fileID: 402460641}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.89, y: 5, z: 172.97}
-  m_LocalScale: {x: 3.734692, y: 6, z: 0.3}
+  m_LocalPosition: {x: -20.009995, y: -15, z: 10.470001}
+  m_LocalScale: {x: 3.734692, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &406839923
 GameObject:
@@ -2675,11 +2853,11 @@ GameObject:
   - component: {fileID: 406839925}
   - component: {fileID: 406839924}
   m_Layer: 0
-  m_Name: wall (81)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &406839924
 BoxCollider:
@@ -2761,11 +2939,11 @@ Transform:
   m_GameObject: {fileID: 406839923}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 68.79, y: 4.9481425, z: 160.525}
-  m_LocalScale: {x: 6.317996, y: 6, z: 0.3}
+  m_LocalPosition: {x: -18.11, y: -15.051857, z: -1.9750061}
+  m_LocalScale: {x: 6.3179955, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &415030219
 GameObject:
@@ -2780,11 +2958,11 @@ GameObject:
   - component: {fileID: 415030221}
   - component: {fileID: 415030220}
   m_Layer: 0
-  m_Name: wall (59)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &415030220
 BoxCollider:
@@ -2865,12 +3043,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415030219}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.89, y: 5, z: 185.95}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.0099945, y: -15, z: 23.449997}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &456629457
 GameObject:
@@ -2885,11 +3063,11 @@ GameObject:
   - component: {fileID: 456629459}
   - component: {fileID: 456629458}
   m_Layer: 0
-  m_Name: wall (1)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &456629458
 BoxCollider:
@@ -2971,11 +3149,11 @@ Transform:
   m_GameObject: {fileID: 456629457}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 8.259003, z: 0.4971178}
-  m_LocalScale: {x: 1, y: 17.387373, z: 0.0132919215}
+  m_LocalPosition: {x: -36.9, y: 0, z: 37.5}
+  m_LocalScale: {x: 75, y: 40, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 599802773}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &456815653
 GameObject:
@@ -2990,11 +3168,11 @@ GameObject:
   - component: {fileID: 456815655}
   - component: {fileID: 456815654}
   m_Layer: 0
-  m_Name: wall (10)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &456815654
 BoxCollider:
@@ -3075,12 +3253,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456815653}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 27.77, y: 5, z: 191.04}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -59.13001, y: -15, z: 28.540009}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &457707596
 GameObject:
@@ -3095,11 +3273,11 @@ GameObject:
   - component: {fileID: 457707598}
   - component: {fileID: 457707597}
   m_Layer: 0
-  m_Name: wall (36)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &457707597
 BoxCollider:
@@ -3181,11 +3359,11 @@ Transform:
   m_GameObject: {fileID: 457707596}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.07, y: 5, z: 170.56}
-  m_LocalScale: {x: 7.0323496, y: 6, z: 0.3}
+  m_LocalPosition: {x: -59.83001, y: -15, z: 8.059998}
+  m_LocalScale: {x: 7.0323496, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &470031401
 GameObject:
@@ -3200,11 +3378,11 @@ GameObject:
   - component: {fileID: 470031403}
   - component: {fileID: 470031402}
   m_Layer: 0
-  m_Name: wall (64)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &470031402
 BoxCollider:
@@ -3285,12 +3463,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470031401}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 60.51, y: 5, z: 172.058}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -26.390003, y: -15, z: 9.557999}
   m_LocalScale: {x: 9.064005, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &470258297
 GameObject:
@@ -3305,11 +3483,11 @@ GameObject:
   - component: {fileID: 470258299}
   - component: {fileID: 470258298}
   m_Layer: 0
-  m_Name: wall (147)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &470258298
 BoxCollider:
@@ -3391,11 +3569,11 @@ Transform:
   m_GameObject: {fileID: 470258297}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 25.7948, y: 4.958774, z: 150.68}
-  m_LocalScale: {x: 4.2212424, y: 6, z: 0.3}
+  m_LocalPosition: {x: -61.10521, y: -15.041226, z: -11.820007}
+  m_LocalScale: {x: 4.2212424, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &488393420
 GameObject:
@@ -3410,11 +3588,11 @@ GameObject:
   - component: {fileID: 488393422}
   - component: {fileID: 488393421}
   m_Layer: 0
-  m_Name: wall (115)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &488393421
 BoxCollider:
@@ -3496,11 +3674,11 @@ Transform:
   m_GameObject: {fileID: 488393420}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 56.47, y: 5.0418954, z: 143.83958}
+  m_LocalPosition: {x: -30.43, y: -14.958105, z: -18.660416}
   m_LocalScale: {x: 7.3790946, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &496439232
 GameObject:
@@ -3515,11 +3693,11 @@ GameObject:
   - component: {fileID: 496439234}
   - component: {fileID: 496439233}
   m_Layer: 0
-  m_Name: wall (73)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &496439233
 BoxCollider:
@@ -3600,12 +3778,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496439232}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 77.62, y: 5, z: 176.21}
-  m_LocalScale: {x: 6.668766, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -9.279991, y: -15, z: 13.710007}
+  m_LocalScale: {x: 6.668767, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &519297401
 GameObject:
@@ -3620,11 +3798,11 @@ GameObject:
   - component: {fileID: 519297403}
   - component: {fileID: 519297402}
   m_Layer: 0
-  m_Name: wall (16)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &519297402
 BoxCollider:
@@ -3706,11 +3884,11 @@ Transform:
   m_GameObject: {fileID: 519297401}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.34, y: 5, z: 183.20999}
-  m_LocalScale: {x: 10, y: 6, z: 0.3}
+  m_LocalPosition: {x: -58.560013, y: -15, z: 20.709991}
+  m_LocalScale: {x: 10, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &527707951
 GameObject:
@@ -3725,11 +3903,11 @@ GameObject:
   - component: {fileID: 527707953}
   - component: {fileID: 527707952}
   m_Layer: 0
-  m_Name: wall (143)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &527707952
 BoxCollider:
@@ -3811,11 +3989,11 @@ Transform:
   m_GameObject: {fileID: 527707951}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 51.3732, y: 5.1154833, z: 131.95992}
-  m_LocalScale: {x: 9.814, y: 6, z: 0.3}
+  m_LocalPosition: {x: -35.5268, y: -14.884518, z: -30.5401}
+  m_LocalScale: {x: 9.814, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &536524528
 GameObject:
@@ -3830,11 +4008,11 @@ GameObject:
   - component: {fileID: 536524530}
   - component: {fileID: 536524529}
   m_Layer: 0
-  m_Name: wall (50)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &536524529
 BoxCollider:
@@ -3915,12 +4093,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536524528}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 69.99, y: 5, z: 188.56}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -16.910004, y: -15, z: 26.059998}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &538304267
 GameObject:
@@ -3935,11 +4113,11 @@ GameObject:
   - component: {fileID: 538304269}
   - component: {fileID: 538304268}
   m_Layer: 0
-  m_Name: wall (145)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &538304268
 BoxCollider:
@@ -4021,11 +4199,11 @@ Transform:
   m_GameObject: {fileID: 538304267}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 49.59, y: 4.960347, z: 153.48}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -37.31, y: -15.039653, z: -9.020004}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &548667974
 GameObject:
@@ -4040,11 +4218,11 @@ GameObject:
   - component: {fileID: 548667976}
   - component: {fileID: 548667975}
   m_Layer: 0
-  m_Name: wall (29)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &548667975
 BoxCollider:
@@ -4126,11 +4304,11 @@ Transform:
   m_GameObject: {fileID: 548667974}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17, y: 5, z: 168.61}
-  m_LocalScale: {x: 7.0323496, y: 6, z: 0.3}
+  m_LocalPosition: {x: -69.90001, y: -15, z: 6.1100006}
+  m_LocalScale: {x: 7.0323496, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &552014324
 GameObject:
@@ -4145,11 +4323,11 @@ GameObject:
   - component: {fileID: 552014326}
   - component: {fileID: 552014325}
   m_Layer: 0
-  m_Name: wall (41)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &552014325
 BoxCollider:
@@ -4230,12 +4408,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552014324}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 49.94, y: 5, z: 172.53}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.9238796}
+  m_LocalPosition: {x: -36.960003, y: -15, z: 10.029999}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.29999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!1 &558803604
 GameObject:
@@ -4250,11 +4428,11 @@ GameObject:
   - component: {fileID: 558803606}
   - component: {fileID: 558803605}
   m_Layer: 0
-  m_Name: wall (63)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &558803605
 BoxCollider:
@@ -4335,12 +4513,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558803604}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 50.14, y: 5, z: 177.93}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.9238796}
+  m_LocalPosition: {x: -36.760002, y: -15, z: 15.429993}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.29999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!1 &593534568
 GameObject:
@@ -4355,11 +4533,11 @@ GameObject:
   - component: {fileID: 593534570}
   - component: {fileID: 593534569}
   m_Layer: 0
-  m_Name: wall (133)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &593534569
 BoxCollider:
@@ -4441,11 +4619,11 @@ Transform:
   m_GameObject: {fileID: 593534568}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 79.0065, y: 5.0296683, z: 145.81967}
-  m_LocalScale: {x: 9.172526, y: 6, z: 0.3}
+  m_LocalPosition: {x: -7.8934937, y: -14.970331, z: -16.680328}
+  m_LocalScale: {x: 9.172526, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &599802769
 GameObject:
@@ -4459,13 +4637,12 @@ GameObject:
   - component: {fileID: 599802772}
   - component: {fileID: 599802771}
   - component: {fileID: 599802770}
-  - component: {fileID: 599802774}
   m_Layer: 3
-  m_Name: floor
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &599802770
 BoxCollider:
@@ -4550,44 +4727,9 @@ Transform:
   m_LocalPosition: {x: 50, y: 1, z: 162.6}
   m_LocalScale: {x: 75, y: 2.30052, z: 75.233665}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1259545030}
-  - {fileID: 456629461}
-  - {fileID: 323296272}
-  - {fileID: 1742278131}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &599802774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599802769}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: c8f250a6969ce6943b0c05845046c7c3, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!1 &622712779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4601,11 +4743,11 @@ GameObject:
   - component: {fileID: 622712781}
   - component: {fileID: 622712780}
   m_Layer: 0
-  m_Name: wall (67)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &622712780
 BoxCollider:
@@ -4686,12 +4828,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622712779}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
-  m_LocalPosition: {x: 50.24, y: 5, z: 182.37}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.9238796, z: -0, w: 0.38268343}
+  m_LocalPosition: {x: -36.659996, y: -15, z: 19.869995}
+  m_LocalScale: {x: 6.1433907, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!1 &624146568
 GameObject:
@@ -4706,11 +4848,11 @@ GameObject:
   - component: {fileID: 624146570}
   - component: {fileID: 624146569}
   m_Layer: 0
-  m_Name: wall (20)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &624146569
 BoxCollider:
@@ -4791,12 +4933,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624146568}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 28.04, y: 5, z: 180.24}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -58.86001, y: -15, z: 17.740005}
+  m_LocalScale: {x: 6.143391, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &627241455
 GameObject:
@@ -4811,11 +4953,11 @@ GameObject:
   - component: {fileID: 627241457}
   - component: {fileID: 627241456}
   m_Layer: 0
-  m_Name: wall (126)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &627241456
 BoxCollider:
@@ -4897,11 +5039,11 @@ Transform:
   m_GameObject: {fileID: 627241455}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 27.07, y: 4.958774, z: 157.26949}
-  m_LocalScale: {x: 7.0323496, y: 6, z: 0.3}
+  m_LocalPosition: {x: -59.83001, y: -15.041226, z: -5.2305145}
+  m_LocalScale: {x: 7.0323496, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &650403689
 GameObject:
@@ -4916,11 +5058,11 @@ GameObject:
   - component: {fileID: 650403691}
   - component: {fileID: 650403690}
   m_Layer: 0
-  m_Name: wall (23)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &650403690
 BoxCollider:
@@ -5002,11 +5144,11 @@ Transform:
   m_GameObject: {fileID: 650403689}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.9899, y: 5, z: 186.26}
-  m_LocalScale: {x: 7.0323496, y: 6, z: 0.3}
+  m_LocalPosition: {x: -66.91011, y: -15, z: 23.759995}
+  m_LocalScale: {x: 7.0323496, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &656037796
 GameObject:
@@ -5021,11 +5163,11 @@ GameObject:
   - component: {fileID: 656037798}
   - component: {fileID: 656037797}
   m_Layer: 0
-  m_Name: wall (15)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &656037797
 BoxCollider:
@@ -5107,11 +5249,11 @@ Transform:
   m_GameObject: {fileID: 656037796}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.805, y: 5, z: 173.76}
-  m_LocalScale: {x: 8.190001, y: 6, z: 0.3}
+  m_LocalPosition: {x: -52.09501, y: -15, z: 11.2599945}
+  m_LocalScale: {x: 8.190001, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &657611542
 GameObject:
@@ -5126,11 +5268,11 @@ GameObject:
   - component: {fileID: 657611544}
   - component: {fileID: 657611543}
   m_Layer: 0
-  m_Name: wall (78)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &657611543
 BoxCollider:
@@ -5212,11 +5354,11 @@ Transform:
   m_GameObject: {fileID: 657611542}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 32.61, y: 5.073642, z: 138.71791}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -54.29001, y: -14.926358, z: -23.78209}
+  m_LocalScale: {x: 6.1433897, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &664351997
 GameObject:
@@ -5231,11 +5373,11 @@ GameObject:
   - component: {fileID: 664351999}
   - component: {fileID: 664351998}
   m_Layer: 0
-  m_Name: wall (104)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &664351998
 BoxCollider:
@@ -5317,11 +5459,11 @@ Transform:
   m_GameObject: {fileID: 664351997}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 64.83, y: 5.0757456, z: 138.37984}
+  m_LocalPosition: {x: -22.069992, y: -14.924254, z: -24.120163}
   m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &679154079
 GameObject:
@@ -5336,11 +5478,11 @@ GameObject:
   - component: {fileID: 679154081}
   - component: {fileID: 679154080}
   m_Layer: 0
-  m_Name: wall (137)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &679154080
 BoxCollider:
@@ -5422,11 +5564,11 @@ Transform:
   m_GameObject: {fileID: 679154079}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 37.4893, y: 4.960347, z: 157.01945}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -49.41071, y: -15.039653, z: -5.480545}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &684650715
 GameObject:
@@ -5441,11 +5583,11 @@ GameObject:
   - component: {fileID: 684650717}
   - component: {fileID: 684650716}
   m_Layer: 0
-  m_Name: wall (18)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &684650716
 BoxCollider:
@@ -5526,12 +5668,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684650715}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 32.61, y: 5, z: 189.1118}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -54.29001, y: -15, z: 26.611816}
+  m_LocalScale: {x: 6.143391, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -5640,11 +5782,11 @@ GameObject:
   - component: {fileID: 707246212}
   - component: {fileID: 707246211}
   m_Layer: 0
-  m_Name: wall (148)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &707246211
 BoxCollider:
@@ -5726,11 +5868,11 @@ Transform:
   m_GameObject: {fileID: 707246210}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 33.9438, y: 5.1154833, z: 131.85}
-  m_LocalScale: {x: 7.8614864, y: 6, z: 0.3}
+  m_LocalPosition: {x: -52.956207, y: -14.884518, z: -30.649994}
+  m_LocalScale: {x: 7.8614864, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &723290170
 GameObject:
@@ -5745,11 +5887,11 @@ GameObject:
   - component: {fileID: 723290172}
   - component: {fileID: 723290171}
   m_Layer: 0
-  m_Name: wall (25)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &723290171
 BoxCollider:
@@ -5830,12 +5972,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 723290170}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 17.19, y: 5, z: 180.24}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -69.71001, y: -15, z: 17.740005}
+  m_LocalScale: {x: 6.143391, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &733562035
 GameObject:
@@ -5850,11 +5992,11 @@ GameObject:
   - component: {fileID: 733562037}
   - component: {fileID: 733562036}
   m_Layer: 0
-  m_Name: wall (55)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &733562036
 BoxCollider:
@@ -5935,12 +6077,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 733562035}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.5026, y: 5, z: 195.26}
-  m_LocalScale: {x: 4.1738896, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.3973923, y: -15, z: 32.76001}
+  m_LocalScale: {x: 4.1738896, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &757415506
 GameObject:
@@ -5955,11 +6097,11 @@ GameObject:
   - component: {fileID: 757415508}
   - component: {fileID: 757415507}
   m_Layer: 0
-  m_Name: wall (57)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &757415507
 BoxCollider:
@@ -6040,12 +6182,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757415506}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 74.13, y: 5, z: 179.06}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -12.770004, y: -15, z: 16.559998}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &772956832
 GameObject:
@@ -6060,11 +6202,11 @@ GameObject:
   - component: {fileID: 772956834}
   - component: {fileID: 772956833}
   m_Layer: 0
-  m_Name: wall (8)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &772956833
 BoxCollider:
@@ -6146,11 +6288,11 @@ Transform:
   m_GameObject: {fileID: 772956832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 51.3732, y: 5, z: 195.87}
-  m_LocalScale: {x: 9.814, y: 6, z: 0.3}
+  m_LocalPosition: {x: -35.526802, y: -15, z: 33.369995}
+  m_LocalScale: {x: 9.814, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &779838557
 GameObject:
@@ -6165,11 +6307,11 @@ GameObject:
   - component: {fileID: 779838559}
   - component: {fileID: 779838558}
   m_Layer: 0
-  m_Name: wall (119)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &779838558
 BoxCollider:
@@ -6251,11 +6393,11 @@ Transform:
   m_GameObject: {fileID: 779838557}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 43.41, y: 5.0237474, z: 146.7796}
+  m_LocalPosition: {x: -43.490005, y: -14.976253, z: -15.720398}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &780412755
 GameObject:
@@ -6270,11 +6412,11 @@ GameObject:
   - component: {fileID: 780412757}
   - component: {fileID: 780412756}
   m_Layer: 0
-  m_Name: wall (45)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &780412756
 BoxCollider:
@@ -6356,11 +6498,11 @@ Transform:
   m_GameObject: {fileID: 780412755}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.4893, y: 5, z: 170.81}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -49.41071, y: -15, z: 8.309998}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &791131552
 GameObject:
@@ -6375,11 +6517,11 @@ GameObject:
   - component: {fileID: 791131554}
   - component: {fileID: 791131553}
   m_Layer: 0
-  m_Name: wall (26)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &791131553
 BoxCollider:
@@ -6460,12 +6602,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791131552}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 20.73, y: 5, z: 180.24}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -66.17001, y: -15, z: 17.740005}
+  m_LocalScale: {x: 6.143391, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &808413067
 GameObject:
@@ -6480,11 +6622,11 @@ GameObject:
   - component: {fileID: 808413069}
   - component: {fileID: 808413068}
   m_Layer: 0
-  m_Name: wall (77)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &808413068
 BoxCollider:
@@ -6566,11 +6708,11 @@ Transform:
   m_GameObject: {fileID: 808413067}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 37.86, y: 5.086491, z: 134.8145}
-  m_LocalScale: {x: 6.0604763, y: 6, z: 0.3}
+  m_LocalPosition: {x: -49.04001, y: -14.91351, z: -27.685501}
+  m_LocalScale: {x: 6.060477, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &811440127
 GameObject:
@@ -6585,11 +6727,11 @@ GameObject:
   - component: {fileID: 811440129}
   - component: {fileID: 811440128}
   m_Layer: 0
-  m_Name: wall (120)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &811440128
 BoxCollider:
@@ -6671,11 +6813,11 @@ Transform:
   m_GameObject: {fileID: 811440127}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 15.6625, y: 5.1154833, z: 131.95992}
-  m_LocalScale: {x: 4.265, y: 6, z: 0.3}
+  m_LocalPosition: {x: -71.23752, y: -14.884518, z: -30.5401}
+  m_LocalScale: {x: 4.265, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &813373280
 GameObject:
@@ -6690,11 +6832,11 @@ GameObject:
   - component: {fileID: 813373282}
   - component: {fileID: 813373281}
   m_Layer: 0
-  m_Name: wall (90)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &813373281
 BoxCollider:
@@ -6776,11 +6918,11 @@ Transform:
   m_GameObject: {fileID: 813373280}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9238751, y: -0.0011838641, z: 0.38268173, w: -0.0028579766}
-  m_LocalPosition: {x: 54.01, y: 5.004418, z: 149.89967}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -32.890007, y: -14.995584, z: -12.600327}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: -0.251, y: 134.999, z: 180.251}
 --- !u!1 &828570223
 GameObject:
@@ -6795,11 +6937,11 @@ GameObject:
   - component: {fileID: 828570225}
   - component: {fileID: 828570224}
   m_Layer: 0
-  m_Name: wall (28)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &828570224
 BoxCollider:
@@ -6881,11 +7023,11 @@ Transform:
   m_GameObject: {fileID: 828570223}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.5109, y: 5, z: 186.26}
-  m_LocalScale: {x: 11.235526, y: 6, z: 0.3}
+  m_LocalPosition: {x: -43.3891, y: -15, z: 23.759995}
+  m_LocalScale: {x: 11.235525, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &842215537
 GameObject:
@@ -6900,11 +7042,11 @@ GameObject:
   - component: {fileID: 842215539}
   - component: {fileID: 842215538}
   m_Layer: 0
-  m_Name: wall (38)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &842215538
 BoxCollider:
@@ -6985,12 +7127,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842215537}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 27.29, y: 5, z: 167.4438}
-  m_LocalScale: {x: 6.1360297, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -59.61001, y: -15, z: 4.943802}
+  m_LocalScale: {x: 6.13603, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &856228049
 GameObject:
@@ -7005,11 +7147,11 @@ GameObject:
   - component: {fileID: 856228051}
   - component: {fileID: 856228050}
   m_Layer: 0
-  m_Name: wall (61)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &856228050
 BoxCollider:
@@ -7091,11 +7233,11 @@ Transform:
   m_GameObject: {fileID: 856228049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.3, y: 5, z: 170.39}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -32.600002, y: -15, z: 7.8899994}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870422749
 GameObject:
@@ -7110,11 +7252,11 @@ GameObject:
   - component: {fileID: 870422751}
   - component: {fileID: 870422750}
   m_Layer: 0
-  m_Name: wall (19)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &870422750
 BoxCollider:
@@ -7196,11 +7338,11 @@ Transform:
   m_GameObject: {fileID: 870422749}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.18, y: 5, z: 186.26}
-  m_LocalScale: {x: 5.192225, y: 6, z: 0.3}
+  m_LocalPosition: {x: -51.72001, y: -15, z: 23.759995}
+  m_LocalScale: {x: 5.1922245, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &879135225 stripped
 GameObject:
@@ -7234,11 +7376,11 @@ GameObject:
   - component: {fileID: 894138846}
   - component: {fileID: 894138845}
   m_Layer: 0
-  m_Name: wall (6)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &894138845
 BoxCollider:
@@ -7319,12 +7461,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894138844}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 23.66, y: 5, z: 191.04}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -63.24001, y: -15, z: 28.540009}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &926553585
 GameObject:
@@ -7339,11 +7481,11 @@ GameObject:
   - component: {fileID: 926553587}
   - component: {fileID: 926553586}
   m_Layer: 0
-  m_Name: wall (82)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &926553586
 BoxCollider:
@@ -7425,11 +7567,11 @@ Transform:
   m_GameObject: {fileID: 926553585}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 77.62, y: 4.9937253, z: 151.6196}
+  m_LocalPosition: {x: -9.279991, y: -15.006275, z: -10.880402}
   m_LocalScale: {x: 6.668766, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &933978078
 GameObject:
@@ -7444,11 +7586,11 @@ GameObject:
   - component: {fileID: 933978080}
   - component: {fileID: 933978079}
   m_Layer: 0
-  m_Name: wall (40)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &933978079
 BoxCollider:
@@ -7529,12 +7671,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933978078}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 44.18, y: 5, z: 167.83}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -42.72, y: -15, z: 5.330002}
+  m_LocalScale: {x: 6.143391, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &954008933
 GameObject:
@@ -7549,11 +7691,11 @@ GameObject:
   - component: {fileID: 954008935}
   - component: {fileID: 954008934}
   m_Layer: 0
-  m_Name: wall (70)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &954008934
 BoxCollider:
@@ -7634,12 +7776,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954008933}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 68.79, y: 5, z: 168.8433}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -18.11, y: -15, z: 6.3433075}
   m_LocalScale: {x: 8.59909, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &955039793
 GameObject:
@@ -7654,11 +7796,11 @@ GameObject:
   - component: {fileID: 955039795}
   - component: {fileID: 955039794}
   m_Layer: 0
-  m_Name: wall (84)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &955039794
 BoxCollider:
@@ -7740,11 +7882,11 @@ Transform:
   m_GameObject: {fileID: 955039793}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 20.73, y: 5.0187116, z: 147.58968}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -66.17001, y: -14.981289, z: -14.910324}
+  m_LocalScale: {x: 6.1433897, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &975754794
 GameObject:
@@ -7759,11 +7901,11 @@ GameObject:
   - component: {fileID: 975754796}
   - component: {fileID: 975754795}
   m_Layer: 0
-  m_Name: wall (118)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &975754795
 BoxCollider:
@@ -7845,11 +7987,11 @@ Transform:
   m_GameObject: {fileID: 975754794}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 51.780003, y: 4.9513927, z: 158.46086}
-  m_LocalScale: {x: 10.177, y: 6, z: 0.3}
+  m_LocalPosition: {x: -35.12, y: -15.048608, z: -4.039139}
+  m_LocalScale: {x: 10.176999, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1001 &977388500
 PrefabInstance:
@@ -8127,7 +8269,11 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   hitSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  respawnPoint: {fileID: 0}
   knockbackForce: 10
+  respawnDelay: 2
+  disableMovementTime: 1
 --- !u!114 &977388515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8235,11 +8381,11 @@ GameObject:
   - component: {fileID: 983740417}
   - component: {fileID: 983740416}
   m_Layer: 0
-  m_Name: wall (134)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &983740416
 BoxCollider:
@@ -8321,11 +8467,11 @@ Transform:
   m_GameObject: {fileID: 983740415}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 65.16, y: 4.9946513, z: 151.46953}
-  m_LocalScale: {x: 9.447761, y: 6, z: 0.3}
+  m_LocalPosition: {x: -21.73999, y: -15.005349, z: -11.030472}
+  m_LocalScale: {x: 9.447761, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &989010814
 GameObject:
@@ -8340,11 +8486,11 @@ GameObject:
   - component: {fileID: 989010816}
   - component: {fileID: 989010815}
   m_Layer: 0
-  m_Name: wall (123)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &989010815
 BoxCollider:
@@ -8426,11 +8572,11 @@ Transform:
   m_GameObject: {fileID: 989010814}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 43.5109, y: 5.0559225, z: 141.56972}
-  m_LocalScale: {x: 11.235526, y: 6, z: 0.3}
+  m_LocalPosition: {x: -43.389107, y: -14.9440775, z: -20.930283}
+  m_LocalScale: {x: 11.235525, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &989191564
 GameObject:
@@ -8445,11 +8591,11 @@ GameObject:
   - component: {fileID: 989191566}
   - component: {fileID: 989191565}
   m_Layer: 0
-  m_Name: wall (62)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &989191565
 BoxCollider:
@@ -8531,11 +8677,11 @@ Transform:
   m_GameObject: {fileID: 989191564}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.38, y: 5, z: 175.74}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -32.519997, y: -15, z: 13.2400055}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &999235705
 GameObject:
@@ -8550,11 +8696,11 @@ GameObject:
   - component: {fileID: 999235707}
   - component: {fileID: 999235706}
   m_Layer: 0
-  m_Name: wall (97)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &999235706
 BoxCollider:
@@ -8636,11 +8782,11 @@ Transform:
   m_GameObject: {fileID: 999235705}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 39.66, y: 4.9493694, z: 158.77942}
+  m_LocalPosition: {x: -47.24, y: -15.050631, z: -3.720581}
   m_LocalScale: {x: 3.3880801, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1010206294
 GameObject:
@@ -8655,11 +8801,11 @@ GameObject:
   - component: {fileID: 1010206296}
   - component: {fileID: 1010206295}
   m_Layer: 0
-  m_Name: wall (12)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1010206295
 BoxCollider:
@@ -8740,12 +8886,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010206294}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 46.62, y: 5, z: 193.7658}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -40.280003, y: -15, z: 31.265793}
   m_LocalScale: {x: 4.5480003, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1015986351
 GameObject:
@@ -8760,11 +8906,11 @@ GameObject:
   - component: {fileID: 1015986353}
   - component: {fileID: 1015986352}
   m_Layer: 0
-  m_Name: wall (13)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1015986352
 BoxCollider:
@@ -8845,12 +8991,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015986351}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 23.66, y: 5, z: 178.49}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -63.240013, y: -15, z: 15.9900055}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1033899833 stripped
 GameObject:
@@ -8884,11 +9030,11 @@ GameObject:
   - component: {fileID: 1067286374}
   - component: {fileID: 1067286373}
   m_Layer: 0
-  m_Name: wall (125)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1067286373
 BoxCollider:
@@ -8970,11 +9116,11 @@ Transform:
   m_GameObject: {fileID: 1067286372}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 17, y: 4.94667, z: 159.21945}
-  m_LocalScale: {x: 7.0323496, y: 6, z: 0.3}
+  m_LocalPosition: {x: -69.90001, y: -15.053329, z: -3.280548}
+  m_LocalScale: {x: 7.0323496, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1088575444 stripped
 GameObject:
@@ -9008,11 +9154,11 @@ GameObject:
   - component: {fileID: 1092824309}
   - component: {fileID: 1092824308}
   m_Layer: 0
-  m_Name: wall (35)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1092824308
 BoxCollider:
@@ -9093,105 +9239,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092824307}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 42.06, y: 5, z: 197.52}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -44.84, y: -15, z: 35.02002}
   m_LocalScale: {x: 4.5480003, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1 &1101253196
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1101253199}
-  - component: {fileID: 1101253198}
-  - component: {fileID: 1101253197}
-  m_Layer: 0
-  m_Name: Terrain (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
---- !u!154 &1101253197
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101253196}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: ed8932142b363c44490344e8a76443a7, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &1101253198
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101253196}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: ed8932142b363c44490344e8a76443a7, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_StaticShadowCaster: 0
-  m_IgnoreQualitySettings: 0
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ReceiveGI: 1
-  m_ScaleInLightmap: 0.0256
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 1
-  m_EnableHeightmapRayTracing: 1
-  m_EnableTreesAndDetailsRayTracing: 0
-  m_TreeMotionVectorModeOverride: 3
---- !u!4 &1101253199
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101253196}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1110924000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9205,11 +9259,11 @@ GameObject:
   - component: {fileID: 1110924002}
   - component: {fileID: 1110924001}
   m_Layer: 0
-  m_Name: wall (138)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1110924001
 BoxCollider:
@@ -9291,11 +9345,11 @@ Transform:
   m_GameObject: {fileID: 1110924000}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 66.89, y: 4.973634, z: 154.85947}
-  m_LocalScale: {x: 3.734692, y: 6, z: 0.3}
+  m_LocalPosition: {x: -20.009995, y: -15.026367, z: -7.6405334}
+  m_LocalScale: {x: 3.734692, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1131420897
 GameObject:
@@ -9310,11 +9364,11 @@ GameObject:
   - component: {fileID: 1131420899}
   - component: {fileID: 1131420898}
   m_Layer: 0
-  m_Name: wall (96)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1131420898
 BoxCollider:
@@ -9396,11 +9450,11 @@ Transform:
   m_GameObject: {fileID: 1131420897}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 44.18, y: 4.9418526, z: 160.4}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -42.72, y: -15.058147, z: -2.100006}
+  m_LocalScale: {x: 6.1433897, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1140365044
 GameObject:
@@ -9415,11 +9469,11 @@ GameObject:
   - component: {fileID: 1140365046}
   - component: {fileID: 1140365045}
   m_Layer: 0
-  m_Name: wall (116)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1140365045
 BoxCollider:
@@ -9501,11 +9555,11 @@ Transform:
   m_GameObject: {fileID: 1140365044}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 84.5026, y: 5.1117153, z: 132.56998}
-  m_LocalScale: {x: 4.1738896, y: 6, z: 0.3}
+  m_LocalPosition: {x: -2.3973923, y: -14.888286, z: -29.930023}
+  m_LocalScale: {x: 4.1738896, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1140462506
 GameObject:
@@ -9520,11 +9574,11 @@ GameObject:
   - component: {fileID: 1140462508}
   - component: {fileID: 1140462507}
   m_Layer: 0
-  m_Name: wall (132)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1140462507
 BoxCollider:
@@ -9606,11 +9660,11 @@ Transform:
   m_GameObject: {fileID: 1140462506}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 78.3833, y: 5.087421, z: 136.48991}
-  m_LocalScale: {x: 8.65855, y: 6, z: 0.3}
+  m_LocalPosition: {x: -8.516693, y: -14.912579, z: -26.010086}
+  m_LocalScale: {x: 8.65855, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1141335678
 GameObject:
@@ -9625,11 +9679,11 @@ GameObject:
   - component: {fileID: 1141335680}
   - component: {fileID: 1141335679}
   m_Layer: 0
-  m_Name: wall (102)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1141335679
 BoxCollider:
@@ -9711,11 +9765,11 @@ Transform:
   m_GameObject: {fileID: 1141335678}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 51.16, y: 5.128395, z: 129.87051}
-  m_LocalScale: {x: 4.186889, y: 6, z: 0.3}
+  m_LocalPosition: {x: -35.74, y: -14.871606, z: -32.629486}
+  m_LocalScale: {x: 4.1868896, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1161346760
 GameObject:
@@ -9730,11 +9784,11 @@ GameObject:
   - component: {fileID: 1161346762}
   - component: {fileID: 1161346761}
   m_Layer: 0
-  m_Name: wall (130)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1161346761
 BoxCollider:
@@ -9816,11 +9870,11 @@ Transform:
   m_GameObject: {fileID: 1161346760}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 44.4277, y: 5.087421, z: 136.48991}
-  m_LocalScale: {x: 4.5671115, y: 6, z: 0.3}
+  m_LocalPosition: {x: -42.4723, y: -14.912579, z: -26.010101}
+  m_LocalScale: {x: 4.5671115, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1166575945
 GameObject:
@@ -9835,11 +9889,11 @@ GameObject:
   - component: {fileID: 1166575947}
   - component: {fileID: 1166575946}
   m_Layer: 0
-  m_Name: wall (39)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1166575946
 BoxCollider:
@@ -9920,12 +9974,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166575945}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 43.41, y: 5, z: 181.05}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -43.489998, y: -15, z: 18.550003}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1182558868
 GameObject:
@@ -9940,11 +9994,11 @@ GameObject:
   - component: {fileID: 1182558870}
   - component: {fileID: 1182558869}
   m_Layer: 0
-  m_Name: wall (107)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1182558869
 BoxCollider:
@@ -10026,11 +10080,11 @@ Transform:
   m_GameObject: {fileID: 1182558868}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 69.99, y: 5.0702066, z: 139.26971}
+  m_LocalPosition: {x: -16.909996, y: -14.929794, z: -23.230286}
   m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1185676139
 GameObject:
@@ -10045,11 +10099,11 @@ GameObject:
   - component: {fileID: 1185676141}
   - component: {fileID: 1185676140}
   m_Layer: 0
-  m_Name: wall (91)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1185676140
 BoxCollider:
@@ -10131,11 +10185,11 @@ Transform:
   m_GameObject: {fileID: 1185676139}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9238751, y: -0.0011838641, z: 0.38268173, w: -0.0028579766}
-  m_LocalPosition: {x: 62.64, y: 5.1082582, z: 133.12988}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -24.260002, y: -14.891743, z: -29.370117}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: -0.251, y: 134.999, z: 180.251}
 --- !u!1 &1230795095
 GameObject:
@@ -10150,11 +10204,11 @@ GameObject:
   - component: {fileID: 1230795097}
   - component: {fileID: 1230795096}
   m_Layer: 0
-  m_Name: wall (14)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1230795096
 BoxCollider:
@@ -10235,13 +10289,65 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230795095}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 47.79, y: 5, z: 169.3686}
-  m_LocalScale: {x: 10.177, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -39.11, y: -15, z: 6.8686066}
+  m_LocalScale: {x: 10.176998, y: 6, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 378565302}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1258341043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1258341045}
+  - component: {fileID: 1258341044}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1258341044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258341043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121087e44552dc94a8304c74d24e27cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 3636717978051917824, guid: c306b506b3c383642b3a2f8ef735874d, type: 3}
+  - {fileID: 5854105771804870998, guid: 3636b1294e31f62499d64e4d22740f3b, type: 3}
+  - {fileID: 4133135379094818914, guid: b4800bb05d1d9a046ab67d470b4e0e0a, type: 3}
+  - {fileID: 7151425840004671497, guid: e4b1d8f6003f2f8489478eae1fc90225, type: 3}
+  - {fileID: 1957823956867376732, guid: f8c2d466b1e63af48b6e6ad67731d7ea, type: 3}
+  - {fileID: 3436322870340181784, guid: eb6be3cdda1ffe249a3a1cc1d2d35081, type: 3}
+  spawnDelay: 7
+--- !u!4 &1258341045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258341043}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1259545026
 GameObject:
   m_ObjectHideFlags: 0
@@ -10255,11 +10361,11 @@ GameObject:
   - component: {fileID: 1259545028}
   - component: {fileID: 1259545027}
   m_Layer: 0
-  m_Name: wall (3)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1259545027
 BoxCollider:
@@ -10341,11 +10447,11 @@ Transform:
   m_GameObject: {fileID: 1259545026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.4919999, y: 8.259003, z: -0.0013292732}
-  m_LocalScale: {x: 0.9968942, y: 17.387373, z: 0.013333334}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 75.00002, y: 40, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 599802773}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1264838837
 GameObject:
@@ -10360,11 +10466,11 @@ GameObject:
   - component: {fileID: 1264838839}
   - component: {fileID: 1264838838}
   m_Layer: 0
-  m_Name: wall (24)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1264838838
 BoxCollider:
@@ -10446,11 +10552,11 @@ Transform:
   m_GameObject: {fileID: 1264838837}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.495, y: 5, z: 191.34}
-  m_LocalScale: {x: 8.122197, y: 6, z: 0.3}
+  m_LocalPosition: {x: -69.405, y: -15, z: 28.839996}
+  m_LocalScale: {x: 8.122197, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1265808437
 GameObject:
@@ -10466,12 +10572,12 @@ GameObject:
   - component: {fileID: 1265808439}
   - component: {fileID: 1265808438}
   m_Layer: 3
-  m_Name: floor (1)
+  m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
 --- !u!114 &1265808438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10602,11 +10708,11 @@ GameObject:
   - component: {fileID: 1267228606}
   - component: {fileID: 1267228605}
   m_Layer: 0
-  m_Name: wall (75)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1267228605
 BoxCollider:
@@ -10688,11 +10794,11 @@ Transform:
   m_GameObject: {fileID: 1267228604}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 23.66, y: 5.085542, z: 136.7898}
+  m_LocalPosition: {x: -63.240013, y: -14.914457, z: -25.710205}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1279525275
 GameObject:
@@ -10707,11 +10813,11 @@ GameObject:
   - component: {fileID: 1279525277}
   - component: {fileID: 1279525276}
   m_Layer: 0
-  m_Name: wall (48)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1279525276
 BoxCollider:
@@ -10793,11 +10899,11 @@ Transform:
   m_GameObject: {fileID: 1279525275}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 76.2662, y: 5, z: 191.34}
-  m_LocalScale: {x: 12.892686, y: 6, z: 0.3}
+  m_LocalPosition: {x: -10.633797, y: -15, z: 28.839996}
+  m_LocalScale: {x: 12.892687, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1279946274
 GameObject:
@@ -10812,11 +10918,11 @@ GameObject:
   - component: {fileID: 1279946276}
   - component: {fileID: 1279946275}
   m_Layer: 0
-  m_Name: wall (76)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1279946275
 BoxCollider:
@@ -10898,11 +11004,11 @@ Transform:
   m_GameObject: {fileID: 1279946274}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 27.77, y: 5.085542, z: 136.7898}
+  m_LocalPosition: {x: -59.130013, y: -14.914457, z: -25.710205}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1310333413
 GameObject:
@@ -10917,11 +11023,11 @@ GameObject:
   - component: {fileID: 1310333415}
   - component: {fileID: 1310333414}
   m_Layer: 0
-  m_Name: wall (124)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1310333414
 BoxCollider:
@@ -11003,11 +11109,11 @@ Transform:
   m_GameObject: {fileID: 1310333413}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 21.5711, y: 5.0559225, z: 141.56972}
-  m_LocalScale: {x: 3.869902, y: 6, z: 0.3}
+  m_LocalPosition: {x: -65.32891, y: -14.9440775, z: -20.930298}
+  m_LocalScale: {x: 3.869902, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1312767084
 GameObject:
@@ -11022,11 +11128,11 @@ GameObject:
   - component: {fileID: 1312767086}
   - component: {fileID: 1312767085}
   m_Layer: 0
-  m_Name: wall (99)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1312767085
 BoxCollider:
@@ -11108,11 +11214,11 @@ Transform:
   m_GameObject: {fileID: 1312767084}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 39.11, y: 5.0089216, z: 149.16965}
+  m_LocalPosition: {x: -47.79, y: -14.991078, z: -13.330353}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1322524681
 GameObject:
@@ -11127,11 +11233,11 @@ GameObject:
   - component: {fileID: 1322524683}
   - component: {fileID: 1322524682}
   m_Layer: 0
-  m_Name: wall (129)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1322524682
 BoxCollider:
@@ -11212,12 +11318,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322524681}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.9238751, y: -0.0011855216, z: -0.38268158, w: -0.0028621024}
-  m_LocalPosition: {x: 18.83, y: 5.087421, z: 137.16}
+  m_LocalRotation: {x: 0.9238751, y: -0.0011855221, z: -0.38268158, w: -0.002862103}
+  m_LocalPosition: {x: -68.07001, y: -14.912579, z: -25.339996}
   m_LocalScale: {x: 8.122197, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 45, z: 0}
 --- !u!1 &1323120307
 GameObject:
@@ -11233,11 +11339,11 @@ GameObject:
   - component: {fileID: 1323120308}
   - component: {fileID: 1323120312}
   m_Layer: 0
-  m_Name: wall
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1323120308
 BoxCollider:
@@ -11318,12 +11424,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323120307}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 50, y: 20, z: 127.39}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -36.899998, y: 0, z: -35.11001}
   m_LocalScale: {x: 75, y: 40, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1323120312
 MonoBehaviour:
@@ -11369,11 +11475,11 @@ GameObject:
   - component: {fileID: 1330536843}
   - component: {fileID: 1330536842}
   m_Layer: 0
-  m_Name: wall (141)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1330536842
 BoxCollider:
@@ -11455,11 +11561,11 @@ Transform:
   m_GameObject: {fileID: 1330536841}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 58.25, y: 4.99083, z: 152.08955}
-  m_LocalScale: {x: 4.2514296, y: 6, z: 0.3}
+  m_LocalPosition: {x: -28.650002, y: -15.009171, z: -10.410446}
+  m_LocalScale: {x: 4.2514296, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1347301522
 GameObject:
@@ -11474,11 +11580,11 @@ GameObject:
   - component: {fileID: 1347301524}
   - component: {fileID: 1347301523}
   m_Layer: 0
-  m_Name: wall (101)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1347301523
 BoxCollider:
@@ -11560,11 +11666,11 @@ Transform:
   m_GameObject: {fileID: 1347301522}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 42.06, y: 5.125738, z: 130.31}
+  m_LocalPosition: {x: -44.84, y: -14.874262, z: -32.190002}
   m_LocalScale: {x: 4.5480003, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1374073904
 GameObject:
@@ -11579,11 +11685,11 @@ GameObject:
   - component: {fileID: 1374073906}
   - component: {fileID: 1374073905}
   m_Layer: 0
-  m_Name: wall (30)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1374073905
 BoxCollider:
@@ -11665,11 +11771,11 @@ Transform:
   m_GameObject: {fileID: 1374073904}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.936, y: 5, z: 177.01}
-  m_LocalScale: {x: 3.7990344, y: 6, z: 0.3}
+  m_LocalPosition: {x: -67.964005, y: -15, z: 14.5099945}
+  m_LocalScale: {x: 3.7990344, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1387853085
 GameObject:
@@ -11684,11 +11790,11 @@ GameObject:
   - component: {fileID: 1387853087}
   - component: {fileID: 1387853086}
   m_Layer: 0
-  m_Name: wall (11)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1387853086
 BoxCollider:
@@ -11769,12 +11875,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387853085}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 37.86, y: 5, z: 191.183}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -49.04001, y: -15, z: 28.682999}
   m_LocalScale: {x: 9.714001, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1392227908
 GameObject:
@@ -11789,11 +11895,11 @@ GameObject:
   - component: {fileID: 1392227910}
   - component: {fileID: 1392227909}
   m_Layer: 0
-  m_Name: wall (54)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1392227909
 BoxCollider:
@@ -11874,12 +11980,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392227908}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 78.99, y: 5, z: 197.615}
-  m_LocalScale: {x: 3.8792863, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -7.909996, y: -15, z: 35.11502}
+  m_LocalScale: {x: 3.879286, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1405564689
 GameObject:
@@ -11894,11 +12000,11 @@ GameObject:
   - component: {fileID: 1405564691}
   - component: {fileID: 1405564690}
   m_Layer: 0
-  m_Name: wall (9)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1405564690
 BoxCollider:
@@ -11980,11 +12086,11 @@ Transform:
   m_GameObject: {fileID: 1405564689}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.3, y: 5, z: 195.87}
-  m_LocalScale: {x: 10, y: 6, z: 0.3}
+  m_LocalPosition: {x: -16.59999, y: -15, z: 33.369995}
+  m_LocalScale: {x: 10, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1420558453
 GameObject:
@@ -11999,11 +12105,11 @@ GameObject:
   - component: {fileID: 1420558455}
   - component: {fileID: 1420558454}
   m_Layer: 0
-  m_Name: wall (121)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1420558454
 BoxCollider:
@@ -12085,11 +12191,11 @@ Transform:
   m_GameObject: {fileID: 1420558453}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 30.1045, y: 5.1154833, z: 135.69}
-  m_LocalScale: {x: 4.949, y: 6, z: 0.3}
+  m_LocalPosition: {x: -56.79551, y: -14.884518, z: -26.810013}
+  m_LocalScale: {x: 4.949, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1422185506
 GameObject:
@@ -12104,11 +12210,11 @@ GameObject:
   - component: {fileID: 1422185508}
   - component: {fileID: 1422185507}
   m_Layer: 0
-  m_Name: wall (66)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1422185507
 BoxCollider:
@@ -12189,12 +12295,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422185506}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 56.47, y: 5, z: 183.9901}
-  m_LocalScale: {x: 7.3790946, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -30.43, y: -15, z: 21.490097}
+  m_LocalScale: {x: 7.379095, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1435699118
 GameObject:
@@ -12209,11 +12315,11 @@ GameObject:
   - component: {fileID: 1435699120}
   - component: {fileID: 1435699119}
   m_Layer: 0
-  m_Name: wall (43)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1435699119
 BoxCollider:
@@ -12294,12 +12400,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435699118}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 35.32, y: 5, z: 167.55}
-  m_LocalScale: {x: 7.0292673, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -51.58001, y: -15, z: 5.050003}
+  m_LocalScale: {x: 7.029268, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &1447319348 stripped
 Transform:
@@ -12319,11 +12425,11 @@ GameObject:
   - component: {fileID: 1462992483}
   - component: {fileID: 1462992482}
   m_Layer: 0
-  m_Name: wall (103)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1462992482
 BoxCollider:
@@ -12405,11 +12511,11 @@ Transform:
   m_GameObject: {fileID: 1462992481}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 60.34, y: 5.1063724, z: 133.4305}
+  m_LocalPosition: {x: -26.560001, y: -14.893627, z: -29.069519}
   m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1511486068
 GameObject:
@@ -12424,11 +12530,11 @@ GameObject:
   - component: {fileID: 1511486070}
   - component: {fileID: 1511486069}
   m_Layer: 0
-  m_Name: wall (109)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1511486069
 BoxCollider:
@@ -12510,11 +12616,11 @@ Transform:
   m_GameObject: {fileID: 1511486068}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 82.77, y: 5.0702066, z: 139.26971}
+  m_LocalPosition: {x: -4.1299973, y: -14.929794, z: -23.230286}
   m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1528043341
 GameObject:
@@ -12529,11 +12635,11 @@ GameObject:
   - component: {fileID: 1528043343}
   - component: {fileID: 1528043342}
   m_Layer: 0
-  m_Name: wall (144)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1528043342
 BoxCollider:
@@ -12615,11 +12721,11 @@ Transform:
   m_GameObject: {fileID: 1528043341}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 70.3, y: 5.1154833, z: 131.95992}
-  m_LocalScale: {x: 10, y: 6, z: 0.3}
+  m_LocalPosition: {x: -16.59999, y: -14.884518, z: -30.5401}
+  m_LocalScale: {x: 10, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1619479207
 GameObject:
@@ -12634,11 +12740,11 @@ GameObject:
   - component: {fileID: 1619479209}
   - component: {fileID: 1619479208}
   m_Layer: 0
-  m_Name: wall (111)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1619479208
 BoxCollider:
@@ -12720,11 +12826,11 @@ Transform:
   m_GameObject: {fileID: 1619479207}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 82.2653, y: 5.0134044, z: 148.43965}
-  m_LocalScale: {x: 8.9585905, y: 6, z: 0.3}
+  m_LocalPosition: {x: -4.634697, y: -14.986595, z: -14.0603485}
+  m_LocalScale: {x: 8.9585905, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1645805281
 GameObject:
@@ -12739,11 +12845,11 @@ GameObject:
   - component: {fileID: 1645805283}
   - component: {fileID: 1645805282}
   m_Layer: 0
-  m_Name: wall (68)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1645805282
 BoxCollider:
@@ -12824,12 +12930,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645805281}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 31.92, y: 5, z: 178.43}
-  m_LocalScale: {x: 3.3880801, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -54.98001, y: -15, z: 15.929993}
+  m_LocalScale: {x: 3.3880804, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1663436113
 GameObject:
@@ -12844,11 +12950,11 @@ GameObject:
   - component: {fileID: 1663436115}
   - component: {fileID: 1663436114}
   m_Layer: 0
-  m_Name: wall (92)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1663436114
 BoxCollider:
@@ -12930,11 +13036,11 @@ Transform:
   m_GameObject: {fileID: 1663436113}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9238751, y: -0.0011838641, z: 0.38268173, w: -0.0028579766}
-  m_LocalPosition: {x: 67.65, y: 5.07206, z: 134.1198}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -19.249992, y: -14.92794, z: -28.380203}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: -0.251, y: 134.999, z: 180.251}
 --- !u!1 &1672519423
 GameObject:
@@ -12949,11 +13055,11 @@ GameObject:
   - component: {fileID: 1672519425}
   - component: {fileID: 1672519424}
   m_Layer: 0
-  m_Name: wall (47)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1672519424
 BoxCollider:
@@ -13034,12 +13140,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672519423}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 67.65, y: 5.03, z: 193.71}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.9238796}
+  m_LocalPosition: {x: -19.25, y: -14.969999, z: 31.210022}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.29999995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!1 &1680335385
 GameObject:
@@ -13054,11 +13160,11 @@ GameObject:
   - component: {fileID: 1680335387}
   - component: {fileID: 1680335386}
   m_Layer: 0
-  m_Name: wall (79)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1680335386
 BoxCollider:
@@ -13140,104 +13246,12 @@ Transform:
   m_GameObject: {fileID: 1680335385}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 28.04, y: 5.0187116, z: 147.58968}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -58.86001, y: -14.981289, z: -14.910324}
+  m_LocalScale: {x: 6.1433897, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
---- !u!1 &1687783037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1687783040}
-  - component: {fileID: 1687783039}
-  - component: {fileID: 1687783038}
-  m_Layer: 3
-  m_Name: Terrain
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 0
---- !u!154 &1687783038
-TerrainCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687783037}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_TerrainData: {fileID: 15600000, guid: 0a885de9a579918448a25b1cfefdf477, type: 2}
-  m_EnableTreeColliders: 1
---- !u!218 &1687783039
-Terrain:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687783037}
-  m_Enabled: 1
-  serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 0a885de9a579918448a25b1cfefdf477, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 5
-  m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
-  m_DetailObjectDensity: 1
-  m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
-  m_HeightmapMaximumLOD: 0
-  m_ShadowCastingMode: 2
-  m_DrawHeightmap: 1
-  m_DrawInstanced: 0
-  m_DrawTreesAndFoliage: 1
-  m_StaticShadowCaster: 0
-  m_IgnoreQualitySettings: 0
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
-  m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
-  m_DeringLightProbesForTrees: 1
-  m_ReceiveGI: 1
-  m_ScaleInLightmap: 0.0256
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
-  m_GroupingID: 0
-  m_RenderingLayerMask: 1
-  m_AllowAutoConnect: 1
-  m_EnableHeightmapRayTracing: 1
-  m_EnableTreesAndDetailsRayTracing: 0
-  m_TreeMotionVectorModeOverride: 3
---- !u!4 &1687783040
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687783037}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1701576929
 GameObject:
   m_ObjectHideFlags: 0
@@ -13251,11 +13265,11 @@ GameObject:
   - component: {fileID: 1701576931}
   - component: {fileID: 1701576930}
   m_Layer: 0
-  m_Name: wall (131)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1701576930
 BoxCollider:
@@ -13337,11 +13351,11 @@ Transform:
   m_GameObject: {fileID: 1701576929}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 54.857, y: 5.087421, z: 136.48991}
-  m_LocalScale: {x: 11.280677, y: 6, z: 0.3}
+  m_LocalPosition: {x: -32.043003, y: -14.912579, z: -26.010101}
+  m_LocalScale: {x: 11.280676, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1723231948
 GameObject:
@@ -13356,11 +13370,11 @@ GameObject:
   - component: {fileID: 1723231950}
   - component: {fileID: 1723231949}
   m_Layer: 0
-  m_Name: wall (128)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1723231949
 BoxCollider:
@@ -13442,11 +13456,11 @@ Transform:
   m_GameObject: {fileID: 1723231948}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 18.936, y: 4.978733, z: 154.0396}
-  m_LocalScale: {x: 3.7990344, y: 6, z: 0.3}
+  m_LocalPosition: {x: -67.964005, y: -15.021267, z: -8.460403}
+  m_LocalScale: {x: 3.7990344, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1737661294
 GameObject:
@@ -13461,11 +13475,11 @@ GameObject:
   - component: {fileID: 1737661296}
   - component: {fileID: 1737661295}
   m_Layer: 0
-  m_Name: wall (33)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1737661295
 BoxCollider:
@@ -13546,12 +13560,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737661294}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 60.34, y: 5, z: 194.3994}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -26.560001, y: -15, z: 31.899414}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1739854824
 GameObject:
@@ -13566,11 +13580,11 @@ GameObject:
   - component: {fileID: 1739854826}
   - component: {fileID: 1739854825}
   m_Layer: 0
-  m_Name: wall (31)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1739854825
 BoxCollider:
@@ -13651,12 +13665,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739854824}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 56.25, y: 5, z: 197.9595}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -30.650002, y: -15, z: 35.459503}
   m_LocalScale: {x: 4.186889, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1742278127
 GameObject:
@@ -13671,11 +13685,11 @@ GameObject:
   - component: {fileID: 1742278129}
   - component: {fileID: 1742278128}
   m_Layer: 0
-  m_Name: wall (2)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1742278128
 BoxCollider:
@@ -13757,11 +13771,11 @@ Transform:
   m_GameObject: {fileID: 1742278127}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.4933333, y: 8.259003, z: 0.0026583436}
-  m_LocalScale: {x: 0.99689436, y: 17.387373, z: 0.013333334}
+  m_LocalPosition: {x: -73.90001, y: 0, z: 0.30000305}
+  m_LocalScale: {x: 75.00002, y: 40, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 599802773}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1763646212
 GameObject:
@@ -13776,11 +13790,11 @@ GameObject:
   - component: {fileID: 1763646214}
   - component: {fileID: 1763646213}
   m_Layer: 0
-  m_Name: wall (32)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1763646213
 BoxCollider:
@@ -13862,11 +13876,11 @@ Transform:
   m_GameObject: {fileID: 1763646212}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.857, y: 5, z: 191.34}
-  m_LocalScale: {x: 11.280677, y: 6, z: 0.3}
+  m_LocalPosition: {x: -32.043003, y: -15, z: 28.839996}
+  m_LocalScale: {x: 11.280676, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1789618040
 GameObject:
@@ -13881,11 +13895,11 @@ GameObject:
   - component: {fileID: 1789618042}
   - component: {fileID: 1789618041}
   m_Layer: 0
-  m_Name: wall (74)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1789618041
 BoxCollider:
@@ -13966,12 +13980,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789618040}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80.62, y: 5, z: 179.39}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.279991, y: -15, z: 16.89}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1800157220
 GameObject:
@@ -13986,11 +14000,11 @@ GameObject:
   - component: {fileID: 1800157223}
   - component: {fileID: 1800157222}
   m_Layer: 0
-  m_Name: wall (5)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!4 &1800157221
 Transform:
@@ -14001,11 +14015,11 @@ Transform:
   m_GameObject: {fileID: 1800157220}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.53, y: 5, z: 195.87}
-  m_LocalScale: {x: 10, y: 6, z: 0.3}
+  m_LocalPosition: {x: -68.37001, y: -15, z: 33.369995}
+  m_LocalScale: {x: 10, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1800157222
 BoxCollider:
@@ -14091,11 +14105,11 @@ GameObject:
   - component: {fileID: 1816037118}
   - component: {fileID: 1816037117}
   m_Layer: 0
-  m_Name: wall (37)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1816037117
 BoxCollider:
@@ -14177,11 +14191,11 @@ Transform:
   m_GameObject: {fileID: 1816037116}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.936, y: 5, z: 173.79}
-  m_LocalScale: {x: 3.7990344, y: 6, z: 0.3}
+  m_LocalPosition: {x: -67.964005, y: -15, z: 11.289993}
+  m_LocalScale: {x: 3.7990344, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1818164759
 GameObject:
@@ -14196,11 +14210,11 @@ GameObject:
   - component: {fileID: 1818164761}
   - component: {fileID: 1818164760}
   m_Layer: 0
-  m_Name: wall (83)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1818164760
 BoxCollider:
@@ -14282,11 +14296,11 @@ Transform:
   m_GameObject: {fileID: 1818164759}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 17.190002, y: 5.0187116, z: 147.58968}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -69.71001, y: -14.981289, z: -14.910324}
+  m_LocalScale: {x: 6.1433897, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1820988451
 GameObject:
@@ -14301,11 +14315,11 @@ GameObject:
   - component: {fileID: 1820988453}
   - component: {fileID: 1820988452}
   m_Layer: 0
-  m_Name: wall (113)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1820988452
 BoxCollider:
@@ -14387,11 +14401,11 @@ Transform:
   m_GameObject: {fileID: 1820988451}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 78.99, y: 5.1262527, z: 130.215}
-  m_LocalScale: {x: 3.8792863, y: 6, z: 0.3}
+  m_LocalPosition: {x: -7.909996, y: -14.873747, z: -32.285004}
+  m_LocalScale: {x: 3.8792865, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1839947798
 GameObject:
@@ -14406,11 +14420,11 @@ GameObject:
   - component: {fileID: 1839947800}
   - component: {fileID: 1839947799}
   m_Layer: 0
-  m_Name: wall (108)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1839947799
 BoxCollider:
@@ -14492,11 +14506,11 @@ Transform:
   m_GameObject: {fileID: 1839947798}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 74.13, y: 5.011352, z: 148.76968}
+  m_LocalPosition: {x: -12.770004, y: -14.988647, z: -13.730316}
   m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1861492285
 GameObject:
@@ -14511,11 +14525,11 @@ GameObject:
   - component: {fileID: 1861492287}
   - component: {fileID: 1861492286}
   m_Layer: 0
-  m_Name: wall (112)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1861492286
 BoxCollider:
@@ -14597,11 +14611,11 @@ Transform:
   m_GameObject: {fileID: 1861492285}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 74.15, y: 5.047359, z: 142.95975}
+  m_LocalPosition: {x: -12.749992, y: -14.952641, z: -19.540253}
   m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1874299680
 GameObject:
@@ -14616,11 +14630,11 @@ GameObject:
   - component: {fileID: 1874299682}
   - component: {fileID: 1874299681}
   m_Layer: 0
-  m_Name: wall (72)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1874299681
 BoxCollider:
@@ -14702,11 +14716,11 @@ Transform:
   m_GameObject: {fileID: 1874299680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 73.2295, y: 5, z: 172.97}
-  m_LocalScale: {x: 8.679125, y: 6, z: 0.3}
+  m_LocalPosition: {x: -13.670502, y: -15, z: 10.470001}
+  m_LocalScale: {x: 8.679125, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1899587606
 GameObject:
@@ -14721,11 +14735,11 @@ GameObject:
   - component: {fileID: 1899587608}
   - component: {fileID: 1899587607}
   m_Layer: 0
-  m_Name: wall (93)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1899587607
 BoxCollider:
@@ -14807,11 +14821,11 @@ Transform:
   m_GameObject: {fileID: 1899587606}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268173, y: -0.0028579766, z: 0.9238751, w: -0.0011838641}
-  m_LocalPosition: {x: 45.93, y: 5.0054655, z: 149.71953}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -40.97, y: -14.9945345, z: -12.780472}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0.251, y: 45.001, z: 180.251}
 --- !u!1 &1902061928 stripped
 GameObject:
@@ -14844,11 +14858,11 @@ GameObject:
   - component: {fileID: 1928509772}
   - component: {fileID: 1928509771}
   m_Layer: 0
-  m_Name: wall (106)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1928509771
 BoxCollider:
@@ -14930,11 +14944,11 @@ Transform:
   m_GameObject: {fileID: 1928509770}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 60.51, y: 4.9679794, z: 157.4171}
-  m_LocalScale: {x: 12.34155, y: 6, z: 0.3}
+  m_LocalPosition: {x: -26.390003, y: -15.032021, z: -5.082901}
+  m_LocalScale: {x: 12.341548, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &1930544913
 GameObject:
@@ -14949,11 +14963,11 @@ GameObject:
   - component: {fileID: 1930544915}
   - component: {fileID: 1930544914}
   m_Layer: 0
-  m_Name: wall (127)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1930544914
 BoxCollider:
@@ -15035,11 +15049,11 @@ Transform:
   m_GameObject: {fileID: 1930544913}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 18.936, y: 4.998709, z: 150.81964}
-  m_LocalScale: {x: 3.7990344, y: 6, z: 0.3}
+  m_LocalPosition: {x: -67.964005, y: -15.001291, z: -11.680359}
+  m_LocalScale: {x: 3.7990344, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &1933483885
 GameObject:
@@ -15146,11 +15160,11 @@ GameObject:
   - component: {fileID: 1941253692}
   - component: {fileID: 1941253691}
   m_Layer: 0
-  m_Name: wall (69)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1941253691
 BoxCollider:
@@ -15231,12 +15245,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941253690}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 65.02, y: 5, z: 170.4005}
-  m_LocalScale: {x: 5.484205, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -21.880005, y: -15, z: 7.9004974}
+  m_LocalScale: {x: 5.484204, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1961237001
 GameObject:
@@ -15251,11 +15265,11 @@ GameObject:
   - component: {fileID: 1961237003}
   - component: {fileID: 1961237002}
   m_Layer: 0
-  m_Name: wall (7)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &1961237002
 BoxCollider:
@@ -15337,11 +15351,11 @@ Transform:
   m_GameObject: {fileID: 1961237001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.63, y: 5, z: 195.87}
-  m_LocalScale: {x: 10, y: 6, z: 0.3}
+  m_LocalPosition: {x: -54.270008, y: -15, z: 33.369995}
+  m_LocalScale: {x: 10, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2001249594
 GameObject:
@@ -15356,11 +15370,11 @@ GameObject:
   - component: {fileID: 2001249596}
   - component: {fileID: 2001249595}
   m_Layer: 0
-  m_Name: wall (27)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2001249595
 BoxCollider:
@@ -15442,11 +15456,11 @@ Transform:
   m_GameObject: {fileID: 2001249594}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.4277, y: 5, z: 191.34}
-  m_LocalScale: {x: 4.5671115, y: 6, z: 0.3}
+  m_LocalPosition: {x: -42.4723, y: -15, z: 28.839996}
+  m_LocalScale: {x: 4.5671115, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2017781131
 GameObject:
@@ -15461,11 +15475,11 @@ GameObject:
   - component: {fileID: 2017781133}
   - component: {fileID: 2017781132}
   m_Layer: 0
-  m_Name: wall (17)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2017781132
 BoxCollider:
@@ -15546,12 +15560,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017781131}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 39.11, y: 5, z: 178.66}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -47.79, y: -15, z: 16.160004}
   m_LocalScale: {x: 10, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2021928456
 GameObject:
@@ -15566,11 +15580,11 @@ GameObject:
   - component: {fileID: 2021928458}
   - component: {fileID: 2021928457}
   m_Layer: 0
-  m_Name: wall (56)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2021928457
 BoxCollider:
@@ -15652,11 +15666,11 @@ Transform:
   m_GameObject: {fileID: 2021928456}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 80.44, y: 5, z: 182.01}
-  m_LocalScale: {x: 12.892686, y: 6, z: 0.3}
+  m_LocalPosition: {x: -6.4599915, y: -15, z: 19.509995}
+  m_LocalScale: {x: 12.892687, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2047514980
 GameObject:
@@ -15671,11 +15685,11 @@ GameObject:
   - component: {fileID: 2047514982}
   - component: {fileID: 2047514981}
   m_Layer: 0
-  m_Name: wall (51)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2047514981
 BoxCollider:
@@ -15756,12 +15770,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047514980}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
-  m_LocalPosition: {x: 65.21, y: 5, z: 180.83}
-  m_LocalScale: {x: 13.640158, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.9238796, z: -0, w: 0.38268343}
+  m_LocalPosition: {x: -21.690002, y: -15, z: 18.330002}
+  m_LocalScale: {x: 13.640157, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!1 &2053904969
 GameObject:
@@ -15776,11 +15790,11 @@ GameObject:
   - component: {fileID: 2053904971}
   - component: {fileID: 2053904970}
   m_Layer: 0
-  m_Name: wall (122)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2053904970
 BoxCollider:
@@ -15862,11 +15876,11 @@ Transform:
   m_GameObject: {fileID: 2053904969}
   serializedVersion: 2
   m_LocalRotation: {x: 0.99999523, y: -0, z: -0, w: -0.0030936983}
-  m_LocalPosition: {x: 35.18, y: 5.0559225, z: 141.56972}
-  m_LocalScale: {x: 5.192225, y: 6, z: 0.3}
+  m_LocalPosition: {x: -51.72001, y: -14.9440775, z: -20.930298}
+  m_LocalScale: {x: 5.1922245, y: 6, z: 0.30000007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 180.355, y: 0, z: 0}
 --- !u!1 &2060915615
 GameObject:
@@ -15881,11 +15895,11 @@ GameObject:
   - component: {fileID: 2060915617}
   - component: {fileID: 2060915616}
   m_Layer: 0
-  m_Name: wall (94)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2060915616
 BoxCollider:
@@ -15967,11 +15981,11 @@ Transform:
   m_GameObject: {fileID: 2060915615}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268173, y: -0.0028579766, z: 0.9238751, w: -0.0011838641}
-  m_LocalPosition: {x: 50.24, y: 5.031871, z: 145.45973}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalPosition: {x: -36.660004, y: -14.968129, z: -17.040268}
+  m_LocalScale: {x: 6.14339, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0.251, y: 45.001, z: 180.251}
 --- !u!1 &2062242534
 GameObject:
@@ -15986,11 +16000,11 @@ GameObject:
   - component: {fileID: 2062242536}
   - component: {fileID: 2062242535}
   m_Layer: 0
-  m_Name: wall (95)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2062242535
 BoxCollider:
@@ -16072,11 +16086,11 @@ Transform:
   m_GameObject: {fileID: 2062242534}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38268173, y: -0.0028579766, z: 0.9238751, w: -0.0011838641}
-  m_LocalPosition: {x: 65.21, y: 5.022353, z: 146.99962}
-  m_LocalScale: {x: 13.640158, y: 6, z: 0.3}
+  m_LocalPosition: {x: -21.689995, y: -14.977647, z: -15.500381}
+  m_LocalScale: {x: 13.640158, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0.251, y: 45.001, z: 180.251}
 --- !u!1 &2077613103
 GameObject:
@@ -16091,11 +16105,11 @@ GameObject:
   - component: {fileID: 2077613105}
   - component: {fileID: 2077613104}
   m_Layer: 0
-  m_Name: wall (21)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2077613104
 BoxCollider:
@@ -16176,12 +16190,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077613103}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 30.61, y: 5, z: 170.4469}
-  m_LocalScale: {x: 7.0292673, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -56.29001, y: -15, z: 7.9468994}
+  m_LocalScale: {x: 7.029268, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2087663544
 GameObject:
@@ -16196,11 +16210,11 @@ GameObject:
   - component: {fileID: 2087663546}
   - component: {fileID: 2087663545}
   m_Layer: 0
-  m_Name: wall (49)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2087663545
 BoxCollider:
@@ -16281,12 +16295,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087663544}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 64.83, y: 5, z: 189.45}
-  m_LocalScale: {x: 5.7693133, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -22.069992, y: -15, z: 26.949997}
+  m_LocalScale: {x: 5.769313, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2099455104
 GameObject:
@@ -16301,11 +16315,11 @@ GameObject:
   - component: {fileID: 2099455106}
   - component: {fileID: 2099455105}
   m_Layer: 0
-  m_Name: wall (105)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2099455105
 BoxCollider:
@@ -16387,11 +16401,11 @@ Transform:
   m_GameObject: {fileID: 2099455104}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 60.51, y: 5.0291343, z: 142.37}
+  m_LocalPosition: {x: -26.390003, y: -14.970865, z: -20.130005}
   m_LocalScale: {x: 11.778798, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &2100050877
 GameObject:
@@ -16406,11 +16420,11 @@ GameObject:
   - component: {fileID: 2100050879}
   - component: {fileID: 2100050878}
   m_Layer: 0
-  m_Name: wall (44)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2100050878
 BoxCollider:
@@ -16491,12 +16505,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100050877}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 39.66, y: 5, z: 169.05}
-  m_LocalScale: {x: 3.3880801, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -47.24, y: -15, z: 6.550003}
+  m_LocalScale: {x: 3.3880804, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &2135812376
 GameObject:
@@ -16511,11 +16525,11 @@ GameObject:
   - component: {fileID: 2135812378}
   - component: {fileID: 2135812377}
   m_Layer: 0
-  m_Name: wall (80)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2135812377
 BoxCollider:
@@ -16597,11 +16611,11 @@ Transform:
   m_GameObject: {fileID: 2135812376}
   serializedVersion: 2
   m_LocalRotation: {x: 0.70710343, y: -0.0021876134, z: 0.70710343, w: -0.0021876134}
-  m_LocalPosition: {x: 65.02, y: 4.957751, z: 157.42897}
-  m_LocalScale: {x: 5.484205, y: 6, z: 0.3}
+  m_LocalPosition: {x: -21.880005, y: -15.04225, z: -5.0710297}
+  m_LocalScale: {x: 5.4842057, y: 6, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 180.354}
 --- !u!1 &2145231722
 GameObject:
@@ -16616,11 +16630,11 @@ GameObject:
   - component: {fileID: 2145231724}
   - component: {fileID: 2145231723}
   m_Layer: 0
-  m_Name: wall (42)
+  m_Name: MazeWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!65 &2145231723
 BoxCollider:
@@ -16701,163 +16715,20 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145231722}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
-  m_LocalPosition: {x: 45.93, y: 5, z: 178.11}
-  m_LocalScale: {x: 6.1433907, y: 6, z: 0.3}
+  m_LocalRotation: {x: -0, y: 0.9238796, z: -0, w: 0.38268343}
+  m_LocalPosition: {x: -40.97, y: -15, z: 15.610001}
+  m_LocalScale: {x: 6.1433907, y: 6, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 378565302}
   m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 705507995}
-  - {fileID: 1687783040}
+  - {fileID: 1258341045}
   - {fileID: 977388500}
-  - {fileID: 1101253199}
   - {fileID: 599802773}
   - {fileID: 1265808442}
-  - {fileID: 1323120311}
-  - {fileID: 894138848}
-  - {fileID: 456815657}
-  - {fileID: 1387853089}
-  - {fileID: 684650719}
-  - {fileID: 624146572}
-  - {fileID: 1941253694}
-  - {fileID: 954008937}
-  - {fileID: 496439236}
-  - {fileID: 723290174}
-  - {fileID: 791131556}
-  - {fileID: 2077613107}
-  - {fileID: 1435699122}
-  - {fileID: 842215541}
-  - {fileID: 398666841}
-  - {fileID: 552014328}
-  - {fileID: 558803608}
-  - {fileID: 243820796}
-  - {fileID: 1672519427}
-  - {fileID: 2145231726}
-  - {fileID: 622712783}
-  - {fileID: 2047514984}
-  - {fileID: 933978082}
-  - {fileID: 2100050881}
-  - {fileID: 1645805285}
-  - {fileID: 2017781135}
-  - {fileID: 1010206298}
-  - {fileID: 1092824311}
-  - {fileID: 1739854828}
-  - {fileID: 1737661298}
-  - {fileID: 2087663548}
-  - {fileID: 281785575}
-  - {fileID: 470031405}
-  - {fileID: 536524532}
-  - {fileID: 757415510}
-  - {fileID: 402265874}
-  - {fileID: 415030223}
-  - {fileID: 1789618044}
-  - {fileID: 190199425}
-  - {fileID: 1392227912}
-  - {fileID: 53602320}
-  - {fileID: 1422185510}
-  - {fileID: 733562039}
-  - {fileID: 1015986355}
-  - {fileID: 1230795099}
-  - {fileID: 1166575949}
-  - {fileID: 1800157221}
-  - {fileID: 1961237005}
-  - {fileID: 870422753}
-  - {fileID: 828570227}
-  - {fileID: 650403693}
-  - {fileID: 548667978}
-  - {fileID: 457707600}
-  - {fileID: 1374073908}
-  - {fileID: 1816037120}
-  - {fileID: 1264838841}
-  - {fileID: 2001249598}
-  - {fileID: 1763646216}
-  - {fileID: 1279525279}
-  - {fileID: 2021928460}
-  - {fileID: 66103603}
-  - {fileID: 519297405}
-  - {fileID: 656037800}
-  - {fileID: 780412759}
-  - {fileID: 402460645}
-  - {fileID: 1874299684}
-  - {fileID: 856228053}
-  - {fileID: 989191568}
-  - {fileID: 250534800}
-  - {fileID: 772956836}
-  - {fileID: 1405564693}
-  - {fileID: 811440131}
-  - {fileID: 1267228608}
-  - {fileID: 1420558457}
-  - {fileID: 707246214}
-  - {fileID: 527707955}
-  - {fileID: 1528043345}
-  - {fileID: 1279946278}
-  - {fileID: 808413071}
-  - {fileID: 22593419}
-  - {fileID: 230900067}
-  - {fileID: 975754798}
-  - {fileID: 259511869}
-  - {fileID: 366164124}
-  - {fileID: 1312767088}
-  - {fileID: 657611546}
-  - {fileID: 2053904973}
-  - {fileID: 1680335389}
-  - {fileID: 186408735}
-  - {fileID: 279557475}
-  - {fileID: 1310333417}
-  - {fileID: 1322524685}
-  - {fileID: 1818164763}
-  - {fileID: 955039797}
-  - {fileID: 1161346764}
-  - {fileID: 989010818}
-  - {fileID: 1067286376}
-  - {fileID: 1930544917}
-  - {fileID: 1141335682}
-  - {fileID: 1701576933}
-  - {fileID: 1462992485}
-  - {fileID: 1347301526}
-  - {fileID: 627241459}
-  - {fileID: 470258301}
-  - {fileID: 1723231952}
-  - {fileID: 339267680}
-  - {fileID: 779838561}
-  - {fileID: 1131420901}
-  - {fileID: 29255755}
-  - {fileID: 1899587610}
-  - {fileID: 999235709}
-  - {fileID: 679154083}
-  - {fileID: 538304271}
-  - {fileID: 101111533}
-  - {fileID: 1185676143}
-  - {fileID: 1663436117}
-  - {fileID: 1140462510}
-  - {fileID: 664352001}
-  - {fileID: 1182558872}
-  - {fileID: 2062242538}
-  - {fileID: 2099455108}
-  - {fileID: 1511486072}
-  - {fileID: 1820988455}
-  - {fileID: 1140365048}
-  - {fileID: 593534572}
-  - {fileID: 1839947802}
-  - {fileID: 983740419}
-  - {fileID: 106742936}
-  - {fileID: 1861492289}
-  - {fileID: 153870015}
-  - {fileID: 1330536845}
-  - {fileID: 813373284}
-  - {fileID: 1928509774}
-  - {fileID: 227112290}
-  - {fileID: 488393424}
-  - {fileID: 2060915619}
-  - {fileID: 38775152}
-  - {fileID: 2135812380}
-  - {fileID: 406839927}
-  - {fileID: 1110924004}
-  - {fileID: 264128577}
-  - {fileID: 926553589}
-  - {fileID: 1619479211}
+  - {fileID: 378565302}
