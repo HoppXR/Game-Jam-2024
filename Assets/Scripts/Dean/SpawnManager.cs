@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject prefabToSpawn; // The prefab you want to spawn
+    public GameObject[] prefabsToSpawn; // Array of prefabs you want to spawn
     public Transform spawnPoint; // The empty GameObject serving as the spawn point
     public float spawnDelay = 50f; // Time delay before spawning
 
@@ -25,11 +25,10 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnPrefabs()
     {
-        // Spawn four prefabs at the specified spawn point
-        for (int i = 0; i < 4; i++)
+        // Spawn all prefabs in the array at the specified spawn point
+        foreach (GameObject prefab in prefabsToSpawn)
         {
-            Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
+            Instantiate(prefab, spawnPoint.position, Quaternion.identity);
         }
     }
 }
-

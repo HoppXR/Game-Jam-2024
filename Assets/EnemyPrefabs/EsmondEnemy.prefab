@@ -17,10 +17,10 @@ GameObject:
   - component: {fileID: 7638078922728440413}
   - component: {fileID: 7047656994657266042}
   - component: {fileID: 4864987341225989757}
-  - component: {fileID: 3485102881303417338}
+  - component: {fileID: -3072936273798183631}
   m_Layer: 0
   m_Name: EsmondEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 2
---- !u!114 &3485102881303417338
+--- !u!114 &-3072936273798183631
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3118863688138410454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ff91f73275ebd24096c86a0ab710646, type: 3}
+  m_Script: {fileID: 11500000, guid: f7d5da61bd813b842831ece4888f07bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   destructionSound: {fileID: 8300000, guid: a75c90b2143199244a47919c85864e86, type: 3}
