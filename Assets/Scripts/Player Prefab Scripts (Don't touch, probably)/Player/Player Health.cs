@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
@@ -16,6 +17,8 @@ public class PlayerHealth : MonoBehaviour
     public float respawnDelay = 2f;
     public float disableMovementTime = 1f;
 
+    public Image deathScreenImage; // Reference to the UI Image component
+
     private bool isDead = false;
 
     void Start()
@@ -28,6 +31,12 @@ public class PlayerHealth : MonoBehaviour
         {
             healthBar.maxValue = maxHealth;
             healthBar.value = currentHealth;
+        }
+
+        // Hide the death screen image at the start
+        if (deathScreenImage != null)
+        {
+            deathScreenImage.gameObject.SetActive(false);
         }
     }
 
@@ -64,6 +73,13 @@ public class PlayerHealth : MonoBehaviour
         hitSound.PlayOneShot(deathSound);
         isDead = true;
         Debug.Log("You Died!");
+
+        // Show the death screen image
+        if (deathScreenImage != null)
+        {
+            deathScreenImage.gameObject.SetActive(true);
+        }
+
         StartCoroutine(DeathSequence());
     }
 
@@ -105,5 +121,11 @@ public class PlayerHealth : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = true;
 
         isDead = false;
+
+        // Hide the death screen image
+        if (deathScreenImage != null)
+        {
+            deathScreenImage.gameObject.SetActive(false);
+        }
     }
 }

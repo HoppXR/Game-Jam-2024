@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35bb2ad18f8985444a20bf257a7522f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Richard
+  sceneName: Jaden
 --- !u!136 &8781780251275237029
 CapsuleCollider:
   m_ObjectHideFlags: 0

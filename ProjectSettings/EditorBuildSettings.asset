@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Dean.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/Jaden.unity
+    guid: 42e5cd9bfb7b7d64b81cc113bd9dc5a5
+  - enabled: 1
+    path: Assets/Scenes/Esmond.unity
+    guid: 68aadf7ad4b32284f82e55d637d16ba3
+  - enabled: 1
+    path: Assets/Scenes/Rayyan.unity
+    guid: 99aebdcd03a067e47985f43061319dac
+  - enabled: 1
     path: Assets/Scenes/Richard.unity
     guid: 5d70d77e95413034ca6abe51e3722d31
+  - enabled: 1
+    path: Assets/Scenes/End Screen.unity
+    guid: 412c0803aef044c43952aee420a56684
   m_configObjects: {}
